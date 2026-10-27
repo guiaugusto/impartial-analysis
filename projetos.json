@@ -1,0 +1,12 @@
+[
+  {
+    "id": "resumo-imparcial-eleicoes-2026",
+    "titulo": "Resumo imparcial do 2º turno de 2026",
+    "descricao": "Mapa interativo por estado, município e zona com os votos do TSE nos dois turnos; linha do tempo do pedido de extensão do horário de votação; casos e ocorrências com nível de confiança; e análise sem veredito. Cada fato traz a fonte e o espectro do veículo.",
+    "tags": ["Eleições 2026", "Mapa", "Dados do TSE", "Fontes e espectro"],
+    "status": "em-andamento",
+    "statusTexto": "Em andamento",
+    "atualizado": "2026-10-27",
+    "url": "resumo-imparcial-eleicoes-2026/"
+  }
+]

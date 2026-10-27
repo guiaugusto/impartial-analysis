@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resumo Imparcial — 2º Turno 2026</title>
+<meta name="description" content="Fatos, dados do TSE e fontes do 2º turno das eleições presidenciais de 2026, com identificação do espectro de cada veículo.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <p class="crumb"><a href="../">← Todos os projetos</a></p>
+    <h1>Resumo imparcial · 2º turno 2026</h1>
+    <p class="sub">Dados do TSE e cobertura de veículos de todo o espectro. <button class="link" data-tip="Quando dois lados dão versões diferentes, as duas aparecem, com a fonte de cada uma. Fatos sem confirmação são marcados como tal.">Como lemos os fatos</button></p>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="mapa">Mapa</button>
+    <button role="tab" data-tab="horario">Horário de votação</button>
+    <button role="tab" data-tab="ocorrencias">Ocorrências</button>
+    <button role="tab" data-tab="analise">Análise</button>
+    <button role="tab" data-tab="fontes">Fontes e método</button>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section id="tab-mapa" class="panel active">
+    <div id="resumo" class="cards"></div>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Visão do mapa">
+        <button data-modo="t1" data-tip="Quem teve mais votos entre os dois finalistas em cada município no 1º turno (4/10).">1º turno</button>
+        <button data-modo="t2" class="on" data-tip="Quem teve mais votos em cada município no 2º turno (25/10). Cor mais forte = margem maior.">2º turno</button>
+        <button data-modo="mud" data-tip="Quanto a margem Lula–Flávio mudou do 1º para o 2º turno no município, em pontos percentuais de votos válidos.">Mudança</button>
+      </div>
+      <select id="uf" aria-label="Escolher estado"><option value="">Brasil (estados)</option></select>
+      <button id="voltar" class="back" hidden>← Brasil</button>
+      <label class="chk" id="valsWrap" data-tip="Liga ou desliga os números escritos sobre os estados e municípios. A preferência fica salva neste aparelho. Nos municípios, só aparecem os que têm espaço na tela; aproxime o mapa para ver mais."><input type="checkbox" id="vals" checked> Mostrar valores no mapa</label>
+    </div>
+    <h2 id="viewTitle" class="viewtitle">Brasil por estado</h2>
+    <div class="legend" id="legenda"></div>
+    <div id="map" aria-label="Mapa do Brasil"></div>
+    <div id="dfgrid" hidden></div>
+    <p class="note" id="mapaNota"></p>
+    <div id="detalhe" class="detalhe" hidden></div>
+  </section>
+
+  <section id="tab-horario" class="panel"></section>
+  <section id="tab-ocorrencias" class="panel"></section>
+  <section id="tab-analise" class="panel"></section>
+  <section id="tab-fontes" class="panel"></section>
+</main>
+
+<footer class="wrap foot">
+  <p>Projeto de leitura independente, sem vínculo com candidatos, partidos ou veículos. Dados eleitorais: <a href="https://resultados.tse.jus.br/oficial/app/index.html" target="_blank" rel="noopener">TSE</a> e <a href="https://dadosabertos.tse.jus.br/" target="_blank" rel="noopener">Dados Abertos do TSE</a>; malha municipal: <a href="https://servicodados.ibge.gov.br/api/docs/malhas" target="_blank" rel="noopener">IBGE</a>.</p>
+  <p id="atualizado"></p>
+</footer>
+
+<div id="tip" role="tooltip" hidden></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="data/conteudo.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
