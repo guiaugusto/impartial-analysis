@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gasolina e salário mínimo, mês a mês</title>
+<meta name="description" content="Preço médio da gasolina comum (ANP) e salário mínimo no Brasil, de 2013 a 2026: período ajustável, mês a mês, contexto de cada alta ou queda e comparação entre municípios.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<main class="wrap">
+
+<header class="intro">
+  <p class="crumb"><a href="../">← Todos os projetos</a></p>
+  <p class="kicker">Brasil · jan/2013 a out/2026</p>
+  <h1>Gasolina e salário mínimo, mês a mês</h1>
+  <p class="lead">Escolha um período, aproxime o gráfico e passe o mouse ou toque sobre as linhas para ver o que aconteceu em cada mês. As faixas coloridas marcam os períodos explicados mais abaixo.</p>
+</header>
+
+<noscript><p class="aviso">Este projeto precisa de JavaScript para desenhar os gráficos.</p></noscript>
+<p id="erro" class="aviso" hidden></p>
+
+<section class="card" aria-labelledby="t-periodo">
+  <div class="linha-titulo"><h2 id="t-periodo" class="h-pequeno">Período</h2><span id="periodo-label" class="muted"></span></div>
+  <div id="presets" class="chips"></div>
+  <div class="sliders">
+    <label>Início: <strong id="inicio-label"></strong><input id="inicio" type="range" step="1" aria-label="Mês inicial do período"></label>
+    <label>Fim: <strong id="fim-label"></strong><input id="fim" type="range" step="1" aria-label="Mês final do período"></label>
+  </div>
+</section>
+
+<section class="card" aria-labelledby="mes-titulo">
+  <div class="linha-titulo">
+    <h2 id="mes-titulo" class="serif"></h2>
+    <div class="acoes">
+      <button id="aproximar" type="button" class="btn azul">Aproximar neste mês</button>
+      <button id="ver-tudo" type="button" class="btn">Ver tudo</button>
+    </div>
+  </div>
+  <label class="muted-label">Mês selecionado (também dá para arrastar sobre os gráficos)
+    <input id="mes" type="range" step="1" aria-label="Mês selecionado">
+  </label>
+  <div class="metricas">
+    <div class="metrica"><span>Gasolina comum</span><strong id="m-gas" class="laranja"></strong><small>por litro</small></div>
+    <div class="metrica"><span>Salário mínimo</span><strong id="m-sal" class="azul-txt"></strong><small>vigente no mês</small></div>
+    <div class="metrica"><span>Litros por salário</span><strong id="m-lit" class="verde-txt"></strong><small>litros de gasolina</small></div>
+  </div>
+  <div id="contexto" class="contexto" hidden></div>
+  <p id="nota" class="nota" hidden></p>
+  <div class="tabela-wrap">
+    <table>
+      <thead><tr><th>Variação em relação a…</th><th>Gasolina</th><th>Salário</th><th>Litros</th></tr></thead>
+      <tbody id="var-corpo"></tbody>
+    </table>
+  </div>
+</section>
+
+<section aria-labelledby="t-c1">
+  <h2 id="t-c1" class="serif">Quem cresceu mais no período?</h2>
+  <p class="texto">Índice com o início do período igual a 100. Azul contínuo em degraus é o salário mínimo; laranja tracejado é a gasolina. Faixas: laranja = alta explicada, verde = queda explicada.</p>
+  <div class="legenda">
+    <span><i class="traco" style="border-top:3px solid var(--azul)"></i>Salário mínimo</span>
+    <span><i class="traco" style="border-top:3px dashed var(--laranja)"></i>Gasolina</span>
+  </div>
+  <div class="painel"><div class="plot" id="c1" style="height:260px"><div class="camada"></div><div class="hit" data-chart="c1"></div></div></div>
+</section>
+
+<section aria-labelledby="t-c2">
+  <h2 id="t-c2" class="serif">Quantos litros um salário mínimo compra?</h2>
+  <p id="lit-resumo" class="texto"></p>
+  <div class="painel"><div class="plot" id="c2" style="height:240px"><div class="camada"></div><div class="hit" data-chart="c2"></div></div></div>
+</section>
+
+<section aria-labelledby="t-mun">
+  <h2 id="t-mun" class="serif">Compare municípios</h2>
+  <p id="mun-intro" class="texto"></p>
+  <div class="card">
+    <label class="muted-label">Buscar município ou estado
+      <input id="busca" type="search" placeholder="Ex.: Campinas, Cruzeiro do Sul, Bahia…" aria-label="Buscar município" autocomplete="off">
+    </label>
+    <div id="resultados" class="chips"></div>
+    <p id="sem-resultado" class="muted" hidden>Nenhum município encontrado para essa busca.</p>
+    <div id="escolhidos" class="chips"></div>
+    <p id="contagem" class="pequeno"></p>
+  </div>
+  <div class="painel"><div class="plot" id="cm" style="height:260px" role="img" aria-label="Gráfico de linhas do preço médio da gasolina em R$ por litro para os municípios escolhidos e para a média nacional"><div class="camada"></div><div class="hit" data-chart="cm"></div></div></div>
+  <p class="pequeno" style="margin:-4px 0 0">Preço médio por litro (R$). Linha pontilhada cinza: média nacional.</p>
+  <div class="card">
+    <h3 id="mun-tabela-titulo" class="h-pequeno"></h3>
+    <div class="tabela-wrap">
+      <table class="larga">
+        <thead><tr><th>Município</th><th>Preço</th><th>Contra a média nacional</th><th>Postos pesquisados</th><th>Litros por salário</th></tr></thead>
+        <tbody id="mun-corpo"></tbody>
+      </table>
+    </div>
+    <p class="pequeno">“Postos pesquisados” é a média mensal de postos que a ANP visitou naquele município; valores baixos significam menos confiança no preço médio.</p>
+  </div>
+  <div class="duas">
+    <div class="card"><h3 id="rk-caros" class="h-pequeno"></h3><div id="lista-caros"></div></div>
+    <div class="card"><h3 id="rk-baratos" class="h-pequeno"></h3><div id="lista-baratos"></div></div>
+  </div>
+</section>
+
+<section aria-labelledby="t-ev">
+  <h2 id="t-ev" class="serif">O que explica as variações</h2>
+  <p class="texto">Períodos em que o preço da gasolina mudou de forma relevante, dentro do intervalo escolhido. A variação é do preço médio da gasolina entre o mês anterior ao evento e o último mês do período. É uma leitura de contexto, não uma medição isolada do efeito de cada causa.</p>
+  <div id="eventos" class="pilha"></div>
+  <p id="sem-eventos" class="muted" hidden>Nenhum dos períodos explicados cai dentro do intervalo escolhido. Amplie o período para ver o contexto.</p>
+</section>
+
+<section aria-labelledby="t-fontes">
+  <h2 id="t-fontes" class="serif">Fontes e metodologia</h2>
+  <ul class="fontes">
+    <li><a href="https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/precos-revenda-e-de-distribuicao-combustiveis/shlp/semanal/semanal-brasil-desde-2013.xlsx">ANP: série semanal de preços, Brasil, desde 2013 (planilha .xlsx)</a>. Preço médio de revenda da gasolina comum em R$/litro; calculei a média das semanas de cada mês.</li>
+    <li><a href="https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/precos-revenda-e-de-distribuicao-combustiveis/serie-historica-do-levantamento-de-precos">ANP: séries mensais por município (planilhas .xlsx, 2013 a 2026)</a>. Preço médio de revenda da gasolina comum por município e mês, usado em “Compare municípios”. Municípios com menos de 12 meses de dados na série ficaram de fora.</li>
+    <li><a href="https://www.dieese.org.br/analisecestabasica/salarioMinimo.html">DIEESE: salário mínimo nominal e necessário</a>, para conferir os valores do salário mínimo por período.</li>
+  </ul>
+  <h3 class="h-pequeno">Fontes do contexto de cada período</h3>
+  <ul class="fontes">
+    <li><a href="https://www.novacana.com/n/etanol/mercado/gasolina/governo-anuncia-volta-cide-gasolina-200115/">NovaCana: volta da Cide e alta de PIS/Cofins na gasolina (fev/2015)</a>.</li>
+    <li><a href="https://www.tecmundo.com.br/mercado/235188-petrobras-reajusta-gasolina-diesel-gas-alta-petroleo.htm">TecMundo: reajuste da Petrobras com a alta do petróleo (mar/2022)</a>.</li>
+    <li><a href="https://www.poder360.com.br/energia/teto-de-icms-reverte-alta-da-gasolina-em-2022/">Poder360: teto de ICMS reverte a alta da gasolina em 2022</a>.</li>
+    <li><a href="https://www.ibet.com.br/da-isencao-a-reoneracao-integral-veja-como-foi-o-vaivem-dos-impostos-sobre-combustiveis-desde-2021/">IBET: vaivém dos impostos federais sobre combustíveis desde 2021</a>, incluindo a reoneração de mar/2023.</li>
+    <li><a href="https://comsefaz.org.br/novo/confaz-publica-aliquotas-ad-rem-sobre-combustiveis-para-2025">Comsefaz: alíquotas de ICMS ad rem sobre combustíveis para 2025</a> (R$ 1,22, R$ 1,37 e R$ 1,47 por litro).</li>
+  </ul>
+  <p class="pequeno">Notas: a ANP não pesquisou preços entre 18/8 e 17/10 de 2020, então setembro de 2020 fica sem ponto de gasolina. As explicações de 2013, 2015 (out.), 2017, 2018, 2020 e 2021 vêm de conhecimento geral dos fatos e não têm link acima; vale conferir antes de citar. Os valores do salário mínimo foram digitados a partir dos decretos anuais, incluindo os reajustes de 2020 (R$ 1.039 em janeiro, R$ 1.045 a partir de fevereiro) e de 2023 (R$ 1.302 até abril, R$ 1.320 desde maio). O valor de 2026, R$ 1.621, não foi conferido em fonte oficial. Os preços são nominais, sem correção pela inflação.</p>
+</section>
+
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>

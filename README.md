@@ -7,6 +7,7 @@ Espaço de estudo sobre política e economia, para formar pensamento crítico a 
 | Projeto | Pasta |
 |---|---|
 | Resumo imparcial do 2º turno de 2026 (mapa, horário de votação, ocorrências, análise) | [`resumo-imparcial-eleicoes-2026/`](resumo-imparcial-eleicoes-2026/) |
+| Gasolina e salário mínimo, mês a mês (preço da gasolina por mês e por município, litros por salário, contexto de cada variação) | [`gasolina-vs-salario-minimo/`](gasolina-vs-salario-minimo/) |
 
 ## Como adicionar um projeto
 
