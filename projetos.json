@@ -8,5 +8,15 @@
     "statusTexto": "Em andamento",
     "atualizado": "2026-10-27",
     "url": "resumo-imparcial-eleicoes-2026/"
+  },
+  {
+    "id": "gasolina-vs-salario-minimo",
+    "titulo": "Gasolina e salário mínimo, mês a mês",
+    "descricao": "Preço médio da gasolina comum (ANP) e salário mínimo no Brasil de 2013 a 2026: período ajustável, litros que um salário compra, contexto de cada alta ou queda e comparação entre municípios. Cada dado traz a fonte e as limitações.",
+    "tags": ["Gasolina", "Salário mínimo", "Dados da ANP", "Municípios"],
+    "status": "em-andamento",
+    "statusTexto": "Em andamento",
+    "atualizado": "2026-10-26",
+    "url": "gasolina-vs-salario-minimo/"
   }
 ]
