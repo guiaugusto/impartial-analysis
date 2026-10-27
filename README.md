@@ -1,6 +1,6 @@
 # impartial-analysis
 
-Microprojetos de leitura imparcial de fatos e dados públicos. Página inicial em GitHub Pages, com índice de todos os projetos.
+Espaço de estudo sobre política e economia, para formar pensamento crítico a partir de dados públicos. Cada microprojeto cita as fontes, marca o que não é confirmado e declara o que os dados não permitem concluir. A página inicial, publicada no GitHub Pages, indexa todos os projetos.
 
 ## Projetos
 
@@ -24,7 +24,7 @@ Abre em `http://localhost:8080` (a raiz mostra o índice).
 
 ## Publicar no GitHub Pages
 
-Em *Settings → Pages*, use *Deploy from a branch*, branch `main`, pasta `/ (root)`. O endereço será `https://guiaugusto.github.io/impartial-analysis/`.
+Em *Settings → Pages*, use *Source: GitHub Actions*. O workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) publica a raiz a cada push na `master`. O endereço será `https://guiaugusto.github.io/impartial-analysis/`.
 
 ## Princípios
 
