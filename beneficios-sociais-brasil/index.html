@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benefícios sociais no Brasil</title>
+<meta name="description" content="Benefícios federais que a população do Brasil, inclusive quem vem de fora, pode receber: quem tem direito, por quanto tempo, quanto vale e onde pedir. Cada ficha traz a fonte e o nível de confiança.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<main class="wrap">
+
+<header class="intro">
+  <p class="crumb"><a href="../">← Todos os projetos</a></p>
+  <p class="kicker">Federal · piloto · verificado em <span id="verificado"></span></p>
+  <h1>Benefícios sociais no Brasil</h1>
+  <p class="lead">Quais benefícios federais existem, quem pode receber, por quanto tempo e se estrangeiros também têm direito. Cada ficha cita a fonte e diz o que ainda não foi confirmado.</p>
+  <p class="aviso">Isto é orientação geral, não consulta jurídica nem decisão sobre o seu caso. Valores e regras mudam. Confirme no gov.br, no Meu INSS (telefone 135) ou no CRAS da sua cidade antes de agir.</p>
+</header>
+
+<noscript><p class="aviso">Este projeto precisa de JavaScript para listar os benefícios.</p></noscript>
+<p id="erro" class="aviso" hidden></p>
+
+<section class="card" aria-labelledby="t-filtros">
+  <h2 id="t-filtros" class="h-pequeno">Filtrar</h2>
+  <label class="muted-label">Buscar por nome ou palavra
+    <input id="busca" type="search" placeholder="Ex.: maternidade, idoso, luz, desemprego…" autocomplete="off" aria-label="Buscar benefício">
+  </label>
+  <div>
+    <p class="muted-label">Área</p>
+    <div id="f-cat" class="chips"></div>
+  </div>
+  <div>
+    <p class="muted-label">Estrangeiros podem receber?</p>
+    <div id="f-estr" class="chips"></div>
+  </div>
+  <div>
+    <p class="muted-label">Tipo</p>
+    <div id="f-tipo" class="chips"></div>
+  </div>
+  <p id="contagem" class="pequeno"></p>
+</section>
+
+<section aria-labelledby="t-lista">
+  <h2 id="t-lista" class="serif">Benefícios</h2>
+  <div id="lista" class="pilha"></div>
+  <p id="vazio" class="muted" hidden>Nenhum benefício corresponde a esses filtros.</p>
+</section>
+
+<section aria-labelledby="t-metodo">
+  <h2 id="t-metodo" class="serif">Como ler as fichas</h2>
+  <ul class="fontes">
+    <li><strong>Níveis de confiança.</strong> <span class="sel conf-confirmado">Confirmado</span> em página oficial ou texto legal; <span class="sel conf-parcial">Parcial</span> quando a fonte oficial é incompleta ou as fontes divergem; <span class="sel conf-nao-verificado">Não verificado</span> quando não achei confirmação oficial. O nível do campo “estrangeiros” é separado do nível da ficha.</li>
+    <li><strong>Tipos.</strong> <em>Assistencial</em>: exige baixa renda, sem contribuição. <em>Previdenciário</em>: depende de contribuir ao INSS. <em>Trabalhista</em>: ligado ao emprego formal. <em>Universal</em>: aberto a todos.</li>
+    <li><strong>Estrangeiros.</strong> “Depende” significa que a lei não veda, mas a regra concreta (documento, visto, tempo de residência) varia e deve ser confirmada no órgão. A Constituição trata brasileiros e estrangeiros residentes de forma igual nos direitos sociais, com as condições que a lei fixar.</li>
+  </ul>
+</section>
+
+<section aria-labelledby="t-lim">
+  <h2 id="t-lim" class="serif">Limitações</h2>
+  <ul class="fontes">
+    <li>Só benefícios federais, e uma amostra inicial. Faltam, por exemplo, Minha Casa Minha Vida, Seguro-Defeso, auxílio-reclusão, benefícios para migrantes e refugiados e os programas de estados e municípios.</li>
+    <li>Os valores de 2026 foram lidos em páginas do governo, mas há relatos de reajustes que não consegui confirmar (como o do Bolsa Família em outubro).</li>
+    <li>As regras de estrangeiros são a parte menos verificada: muitas páginas oficiais não falam de nacionalidade.</li>
+    <li>Algumas regras (tabela de parcelas do seguro-desemprego, prazos de pedido) seguem normas que não li na íntegra. Cada ficha marca isso.</li>
+  </ul>
+</section>
+
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>
