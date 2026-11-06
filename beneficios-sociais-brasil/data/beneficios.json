@@ -1,0 +1,363 @@
+{
+  "verificadoEm": "2026-11-06",
+  "salarioMinimo": 1621,
+  "salarioMinimoNota": "R$ 1.621,00 em 2026, valor citado nas páginas do Ministério do Trabalho sobre seguro-desemprego e abono. Confira no DIEESE.",
+  "niveis": {
+    "confirmado": "Confirmado em página oficial (gov.br) ou texto legal",
+    "parcial": "Confirmado em parte: fonte oficial incompleta ou fontes divergentes",
+    "nao-verificado": "Não confirmado em fonte oficial nesta coleta"
+  },
+  "categorias": ["Renda familiar", "Trabalho", "Doença e deficiência", "Maternidade e família", "Velhice e morte", "Educação", "Saúde", "Moradia e contas"],
+  "beneficios": [
+    {
+      "id": "bolsa-familia",
+      "nome": "Bolsa Família",
+      "categoria": "Renda familiar",
+      "orgao": "MDS (pago pela Caixa)",
+      "tipo": "assistencial",
+      "resumo": "Transferência mensal de renda para famílias de baixa renda inscritas no Cadastro Único.",
+      "quem": [
+        "Famílias com renda mensal de até R$ 218 por pessoa.",
+        "Inscrição no Cadastro Único (CadÚnico), feita presencialmente no CRAS ou posto do município.",
+        "A entrada não é automática: depende de análise do sistema e do limite orçamentário."
+      ],
+      "criterios": { "rendaPerCapitaMax": 218, "rendaNota": "R$ 218 por pessoa (valor fixo em reais, não em salário mínimo)." },
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "A página oficial do Bolsa Família não trata de nacionalidade. Fontes secundárias dizem que imigrantes com CPF e documento de residência (CRNM ou autorização de residência) e refugiados reconhecidos pelo Conare podem se inscrever no CadÚnico. Há notícia de que o governo estuda exigir tempo mínimo de residência; isso não foi confirmado em fonte oficial.",
+        "confianca": "nao-verificado"
+      },
+      "duracao": "Sem prazo fixo: dura enquanto a família atender à renda e cumprir as condições. O cadastro precisa ser atualizado a cada 2 anos ou quando a família mudar. Cada parcela pode ser sacada em até 120 dias.",
+      "condicoes": "Frequência escolar mínima (60% aos 4 e 5 anos; 75% dos 6 aos 18), vacinação e acompanhamento nutricional até os 7 anos, pré-natal para gestantes.",
+      "valor": "Pela página oficial: R$ 142 por pessoa (Renda de Cidadania), completando até R$ 600 por família; mais R$ 150 por criança de 0 a 7 anos incompletos e R$ 50 por gestante, nutriz ou criança e adolescente de 7 a 18 anos incompletos. Há relatos de reajuste em out/2026 (piso de R$ 691, R$ 164 por pessoa) que não foram confirmados em fonte oficial.",
+      "comoPedir": "Cadastro Único no CRAS ou posto de atendimento. Telefone 121.",
+      "baseLegal": "Lei 14.601/2023; Decreto 12.064/2024",
+      "confianca": "parcial",
+      "fontes": [
+        { "texto": "gov.br: Receber o Bolsa Família", "url": "https://www.gov.br/pt-br/servicos/receber-o-bolsa-familia" },
+        { "texto": "MDS: Conheça as regras do Bolsa Família", "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia/paginas/conheca-as-regras" }
+      ]
+    },
+    {
+      "id": "bpc",
+      "nome": "Benefício de Prestação Continuada (BPC/LOAS)",
+      "categoria": "Renda familiar",
+      "orgao": "INSS (regras do MDS)",
+      "tipo": "assistencial",
+      "resumo": "Um salário mínimo por mês para idosos e pessoas com deficiência de baixa renda. Não exige contribuição ao INSS.",
+      "quem": [
+        "Pessoa com 65 anos ou mais, ou pessoa com deficiência de qualquer idade (impedimento de pelo menos 2 anos, avaliado por perícia médica e avaliação social).",
+        "Renda familiar de até 1/4 do salário mínimo por pessoa (alguns rendimentos são excluídos do cálculo).",
+        "Inscrição no CadÚnico com os dados da família atualizados."
+      ],
+      "criterios": { "rendaPerCapitaSM": 0.25, "rendaNota": "1/4 do salário mínimo por pessoa; a Lei 14.176/2021 permite o regulamento ampliar até 1/2 em certos casos (não confirmado se está em vigor)." },
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "Páginas do INSS e do governo citam brasileiros natos e naturalizados e portugueses residentes. O STF (RE 587970, Tema 173, 2017) decidiu que estrangeiros residentes no país têm direito, desde que cumpram os demais requisitos. O texto do voto fala em estrangeiro em situação regular. Como o INSS aplica isso hoje a cada nacionalidade não foi confirmado.",
+        "confianca": "parcial"
+      },
+      "duracao": "Sem prazo fixo, mas revisado periodicamente: o benefício pode ser suspenso se a renda ou a situação mudar. Não gera pensão por morte nem 13º.",
+      "condicoes": "Manter o CadÚnico atualizado e passar pelas revisões do INSS.",
+      "valor": "Um salário mínimo (R$ 1.621 em 2026).",
+      "comoPedir": "Meu INSS (site, app) ou telefone 135, depois de atualizar o CadÚnico.",
+      "baseLegal": "Constituição, art. 203, V; Lei 8.742/1993 (LOAS); Lei 14.176/2021",
+      "confianca": "parcial",
+      "fontes": [
+        { "texto": "MDS: Benefício de Prestação Continuada", "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/suas/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc" },
+        { "texto": "INSS: BPC para pessoa com deficiência", "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-assistenciais/beneficio-assistencial-a-pessoa-com-deficiencia-bpc-loas" },
+        { "texto": "Congresso em Foco: STF autoriza benefício assistencial a estrangeiro (RE 587970)", "url": "https://congressoemfoco.com.br/noticia/105440/stf-autoriza-concessao-de-beneficio-assistencial-a-estrangeiro" }
+      ]
+    },
+    {
+      "id": "seguro-desemprego",
+      "nome": "Seguro-Desemprego",
+      "categoria": "Trabalho",
+      "orgao": "Ministério do Trabalho e Emprego",
+      "tipo": "trabalhista",
+      "resumo": "Parcelas temporárias para quem perdeu o emprego com carteira assinada sem justa causa.",
+      "quem": [
+        "Trabalhador dispensado sem justa causa, com vínculo formal.",
+        "Tempo mínimo de trabalho antes da dispensa (carência), que diminui a cada novo pedido. A tabela usual: 12 meses na primeira solicitação, 9 na segunda, 6 da terceira em diante.",
+        "Não ter renda própria suficiente para o sustento nem receber outro benefício da Previdência (exceto auxílio-acidente e pensão por morte)."
+      ],
+      "criterios": {},
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "O benefício é ligado ao vínculo formal de trabalho, não à nacionalidade. Estrangeiro com CTPS e contrato formal em situação regular segue a mesma regra. As páginas oficiais consultadas não tratam de nacionalidade.",
+        "confianca": "nao-verificado"
+      },
+      "duracao": "De 3 a 5 parcelas mensais, conforme o tempo trabalhado (a tabela exata de parcelas não foi confirmada em página oficial nesta coleta; fontes secundárias indicam 4 parcelas para 12 a 23 meses e 5 para 24 meses ou mais na primeira solicitação). O pedido deve ser feito em prazo curto após a dispensa (em geral de 7 a 120 dias).",
+      "condicoes": "Não ter vínculo de emprego nem renda própria suficiente; cumprir a carência.",
+      "valor": "Entre R$ 1.621 (piso, igual ao salário mínimo) e R$ 2.518,65 (teto), para benefícios concedidos a partir de 11/01/2026. O valor vem da média dos últimos 3 salários.",
+      "comoPedir": "App Carteira de Trabalho Digital, gov.br ou unidades do Sine.",
+      "baseLegal": "Lei 7.998/1990; resoluções do Codefat",
+      "confianca": "parcial",
+      "fontes": [
+        { "texto": "MTE: reajuste dos valores do Seguro-Desemprego (janeiro/2026)", "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/janeiro/mte-reajusta-valores-do-beneficio-seguro-desemprego" },
+        { "texto": "Planalto: Lei 7.998/1990", "url": "https://www.planalto.gov.br/ccivil_03/leis/l7998.htm" }
+      ]
+    },
+    {
+      "id": "abono-salarial",
+      "nome": "Abono Salarial (PIS/Pasep)",
+      "categoria": "Trabalho",
+      "orgao": "Ministério do Trabalho e Emprego (Caixa e Banco do Brasil pagam)",
+      "tipo": "trabalhista",
+      "resumo": "Pagamento anual a trabalhadores formais de menor renda, de até um salário mínimo, proporcional aos meses trabalhados.",
+      "quem": [
+        "Remuneração média mensal de até R$ 2.766 no ano-base 2024 (pago em 2026). O teto cai por etapas até 1,5 salário mínimo em 2035 (Emenda Constitucional 135/2024).",
+        "Pelo menos 30 dias de trabalho remunerado no ano-base, seguidos ou não.",
+        "Cadastro no PIS/Pasep há pelo menos 5 anos.",
+        "Dados informados corretamente pelo empregador no eSocial."
+      ],
+      "criterios": { "rendaMax": 2766, "rendaNota": "Teto em reais para o ano-base 2024." },
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "Os critérios são vínculo formal e cadastro no PIS/Pasep, sem menção a nacionalidade nas páginas consultadas. Não foi verificado em fonte oficial se há regra específica para estrangeiros.",
+        "confianca": "nao-verificado"
+      },
+      "duracao": "Um pagamento por ano. Os valores ficam disponíveis para saque até o fim do ano de pagamento (30/12/2026 no calendário atual).",
+      "condicoes": "Nenhum pedido: o trabalhador só consulta se tem direito.",
+      "valor": "De R$ 136 a R$ 1.621, conforme os meses trabalhados no ano-base.",
+      "comoPedir": "Não precisa pedir. Consulta pela Carteira de Trabalho Digital ou gov.br.",
+      "baseLegal": "Constituição, art. 239; Emenda Constitucional 135/2024",
+      "confianca": "confirmado",
+      "fontes": [
+        { "texto": "MTE: Obter o Abono Salarial", "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/mte/obter-o-abono-salarial" },
+        { "texto": "MTE: lote complementar do Abono Salarial (out/2026)", "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/outubro/abono-salarial-pagamento-de-lote-complementar-comeca-nesta-quinta-feira-15" }
+      ]
+    },
+    {
+      "id": "auxilio-incapacidade-temporaria",
+      "nome": "Auxílio por incapacidade temporária (antigo auxílio-doença)",
+      "categoria": "Doença e deficiência",
+      "orgao": "INSS",
+      "tipo": "previdenciário",
+      "resumo": "Renda para o segurado que não pode trabalhar por mais de 15 dias por doença ou acidente.",
+      "quem": [
+        "Ser segurado do INSS (contribuindo ou dentro do período de graça).",
+        "Incapacidade para o trabalho por mais de 15 dias consecutivos, comprovada em perícia ou, em alguns casos, pelo Atestmed.",
+        "Carência de 12 contribuições mensais, dispensada em caso de acidente, doença profissional ou do trabalho e nas doenças da lista oficial (Portaria 22)."
+      ],
+      "criterios": {},
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "Benefício previdenciário: vale a condição de segurado e a carência, não a nacionalidade. Estrangeiro que contribui ao INSS segue a mesma regra. As páginas consultadas não tratam disso diretamente.",
+        "confianca": "nao-verificado"
+      },
+      "duracao": "Enquanto durar a incapacidade, com perícias de revisão. A empresa paga os primeiros 15 dias de um empregado; o INSS assume depois. No Atestmed, o prazo máximo varia nas fontes (90 ou 180 dias).",
+      "condicoes": "Passar pelas perícias de revisão e manter a incapacidade.",
+      "valor": "Calculado sobre as contribuições, nunca inferior a um salário mínimo.",
+      "comoPedir": "Meu INSS (site, app) ou telefone 135.",
+      "baseLegal": "Lei 8.213/1991, arts. 59 a 63",
+      "confianca": "confirmado",
+      "fontes": [
+        { "texto": "INSS: Auxílio por incapacidade temporária", "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-por-incapacidade/auxilio-por-incapacidade-temporaria" },
+        { "texto": "Previdência: lista de doenças isentas de carência", "url": "https://www.gov.br/previdencia/pt-br/noticias/2022/setembro/mtp-amplia-a-lista-de-doencas-isentas-de-carencia-para-recebimento-de-beneficio-por-incapacidade" }
+      ]
+    },
+    {
+      "id": "salario-maternidade",
+      "nome": "Salário-maternidade",
+      "categoria": "Maternidade e família",
+      "orgao": "INSS (empregadora paga a empregada)",
+      "tipo": "previdenciário",
+      "resumo": "Remuneração durante a licença por parto, adoção ou guarda para fins de adoção.",
+      "quem": [
+        "Seguradas do INSS: empregadas, domésticas, contribuintes individuais, facultativas e seguradas especiais (rurais).",
+        "Para contribuinte individual, facultativa e especial, o INSS informa que a carência de 10 contribuições deixou de ser exigida desde 05/04/2024 (decisão do STF, formalizada pela IN 188/2025). Páginas antigas ainda citam os 10 meses.",
+        "Homem adotante e quem ficou com a guarda para adoção também podem receber."
+      ],
+      "criterios": {},
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "Benefício previdenciário: vale a qualidade de segurada. Nas páginas consultadas não há tratamento específico de nacionalidade.",
+        "confianca": "nao-verificado"
+      },
+      "duracao": "120 dias em regra (14 dias em caso de aborto não criminoso); o prazo pode ser prorrogado se a mãe ou o bebê ficarem internados por complicações.",
+      "condicoes": "Manter a qualidade de segurada.",
+      "valor": "Para empregadas urbanas, média das últimas contribuições; para seguradas especiais rurais, um salário mínimo.",
+      "comoPedir": "Meu INSS (site, app) ou telefone 135; empregada pede à empresa.",
+      "baseLegal": "Lei 8.213/1991, arts. 71 a 73; IN PRES/INSS 188/2025",
+      "confianca": "parcial",
+      "fontes": [
+        { "texto": "INSS: Salário-maternidade, proteção na chegada de mais uma vida", "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/salario-maternidade-protecao-previdenciaria-no-momento-da-chegada-de-mais-uma-vida" },
+        { "texto": "INSS: Salário-maternidade urbano e rural, diferenças", "url": "https://www.gov.br/inss/pt-br/noticias/salario-maternidade-urbano-e-rural-quais-as-diferencas" },
+        { "texto": "INSS: Salário-maternidade da segurada especial", "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/salario-maternidade/salario-maternidade-para-segurada-o-especial" }
+      ]
+    },
+    {
+      "id": "aposentadoria-idade",
+      "nome": "Aposentadoria por idade (urbana)",
+      "categoria": "Velhice e morte",
+      "orgao": "INSS",
+      "tipo": "previdenciário",
+      "resumo": "Renda vitalícia para quem atingiu a idade mínima e contribuiu pelo tempo exigido.",
+      "quem": [
+        "Mulheres com 62 anos ou mais; homens com 65 anos ou mais.",
+        "15 anos de contribuição e carência de 180 contribuições mensais.",
+        "Regras de transição existem para quem já estava no sistema antes da reforma de 2019 (idade mínima progressiva, pontos, pedágio)."
+      ],
+      "criterios": { "idadeMinima": 62 },
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "Regra contributiva: vale quem contribuiu o tempo exigido. Não há menção a nacionalidade nas páginas consultadas. Acordos internacionais de previdência podem somar tempo contribuído no exterior; não foi pesquisado país por país.",
+        "confianca": "nao-verificado"
+      },
+      "duracao": "Vitalícia.",
+      "condicoes": "Nenhuma depois da concessão.",
+      "valor": "Calculado sobre a média das contribuições, não inferior a um salário mínimo.",
+      "comoPedir": "Meu INSS (site, app) ou telefone 135. A simulação não garante o direito.",
+      "baseLegal": "Emenda Constitucional 103/2019; Lei 8.213/1991",
+      "confianca": "confirmado",
+      "fontes": [
+        { "texto": "gov.br: Solicitar aposentadoria por idade urbana", "url": "https://www.gov.br/pt-br/servicos/solicitar-aposentadoria-por-idade-trabalhador-urbano" },
+        { "texto": "INSS: Regras de aposentadoria mudam em 2026", "url": "https://www.gov.br/inss/pt-br/noticias/noticias/regras-de-transicao-mudam-os-requisitos-para-aposentadoria-em-2026" }
+      ]
+    },
+    {
+      "id": "pensao-por-morte",
+      "nome": "Pensão por morte",
+      "categoria": "Velhice e morte",
+      "orgao": "INSS",
+      "tipo": "previdenciário",
+      "resumo": "Renda aos dependentes de segurado do INSS que morreu. A duração para cônjuge e companheiro(a) depende da idade e do tempo de união.",
+      "quem": [
+        "Dependentes do segurado falecido: cônjuge ou companheiro(a), filhos e outros dependentes previstos em lei.",
+        "O falecido precisa ter qualidade de segurado.",
+        "Para cônjuge e companheiro(a): ter 18 contribuições do falecido e 2 anos de casamento ou união estável para ter direito além de 4 meses."
+      ],
+      "criterios": {},
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "Regra previdenciária: depende de o falecido ser segurado e do vínculo de dependência. Não há menção a nacionalidade nas páginas consultadas.",
+        "confianca": "nao-verificado"
+      },
+      "duracao": "Cônjuge ou companheiro(a): 4 meses se faltarem as 18 contribuições ou os 2 anos de união. Nos demais casos, conforme a idade do beneficiário na data do óbito: menos de 22 anos, 3 anos; 22 a 27, 6 anos; 28 a 30, 10 anos; 31 a 41, 15 anos; 42 a 44, 20 anos; 45 ou mais, vitalícia.",
+      "condicoes": "Dependentes menores de idade ou com deficiência seguem regras próprias.",
+      "valor": "Percentual do valor da aposentadoria do falecido, definido pela reforma de 2019.",
+      "comoPedir": "Meu INSS (site, app) ou telefone 135. Há prazos para pedir sem perder os atrasados.",
+      "baseLegal": "Lei 8.213/1991, art. 74 a 77; Emenda Constitucional 103/2019",
+      "confianca": "confirmado",
+      "fontes": [
+        { "texto": "INSS: Pensão por morte", "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/pensoes/pensao-por-morte" },
+        { "texto": "INSS: Quanto tempo dura a pensão por morte", "url": "https://www.gov.br/inss/pt-br/noticias/saiba-quanto-tempo-dura-o-recebimento-da-pensao-por-morte" }
+      ]
+    },
+    {
+      "id": "pe-de-meia",
+      "nome": "Pé-de-Meia",
+      "categoria": "Educação",
+      "orgao": "MEC",
+      "tipo": "assistencial",
+      "resumo": "Incentivo financeiro e poupança para estudantes de baixa renda do ensino médio público permanecerem na escola.",
+      "quem": [
+        "Estudante do ensino médio público regular (14 a 24 anos) ou da EJA (19 a 24 anos).",
+        "Família no CadÚnico, com renda de até meio salário mínimo por pessoa.",
+        "CPF regularizado e frequência mínima de 80%."
+      ],
+      "criterios": { "rendaPerCapitaSM": 0.5 },
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "Os critérios são matrícula na rede pública, CPF e CadÚnico, sem exigência de nacionalidade nas páginas consultadas. Estrangeiro com CPF e inscrito no CadÚnico, portanto, pode atender às regras; isso não foi confirmado em norma específica.",
+        "confianca": "nao-verificado"
+      },
+      "duracao": "Até a conclusão do ensino médio (3 anos no regular). A seleção é automática, sem inscrição.",
+      "condicoes": "Frequência mínima de 80%, aprovação e participação nos dois dias do Enem na conclusão. Quem abandona perde as parcelas de conclusão.",
+      "valor": "R$ 200 de matrícula por ano, 9 parcelas mensais de R$ 200 de frequência, R$ 1.000 de conclusão por ano aprovado (só sacável ao concluir) e R$ 200 pelo Enem. Total de até R$ 9.200 por estudante, segundo o governo. Na EJA, valores e parcelas diferem.",
+      "comoPedir": "Não há inscrição. A seleção cruza a matrícula com o CadÚnico.",
+      "baseLegal": "Lei 14.818/2024; Decreto 11.901/2024",
+      "confianca": "parcial",
+      "fontes": [
+        { "texto": "MEC: Pé-de-Meia, perguntas frequentes (opções de investimento)", "url": "https://www.gov.br/mec/pt-br/acesso-a-informacao/perguntas-frequentes/pe-de-meia/opcoes-de-investimento" },
+        { "texto": "MEC: Participante pode ganhar R$ 200 extra se fizer Enem", "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2025/novembro/participante-do-pe-de-meia-pode-ganhar-r-200-extra-se-fizer-enem" }
+      ]
+    },
+    {
+      "id": "farmacia-popular",
+      "nome": "Farmácia Popular do Brasil",
+      "categoria": "Saúde",
+      "orgao": "Ministério da Saúde",
+      "tipo": "universal",
+      "resumo": "Medicamentos gratuitos para 12 indicações (hipertensão, diabetes, asma, colesterol, anticoncepcionais e outras) em farmácias credenciadas.",
+      "quem": [
+        "Qualquer pessoa, sem cadastro, com documento com foto, CPF e receita dentro do prazo de validade (do SUS ou particular).",
+        "Fraldas geriátricas: 60 anos ou mais, ou pessoa com deficiência, com laudo.",
+        "Absorventes: estudantes de escola pública, pessoas em vulnerabilidade extrema e em situação de rua, de 10 a 49 anos, inscritas no CadÚnico."
+      ],
+      "criterios": {},
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "As páginas do Ministério da Saúde pedem documento com foto e CPF, sem exigir nacionalidade brasileira. Quem tem CPF e receita, portanto, atende ao que está publicado; o regulamento não foi lido na íntegra.",
+        "confianca": "parcial"
+      },
+      "duracao": "Enquanto a receita estiver válida. Para absorventes, a autorização do Meu SUS Digital vale 180 dias.",
+      "condicoes": "Retirar em farmácia credenciada com o selo do programa.",
+      "valor": "Gratuito para os itens da lista desde 14/02/2025.",
+      "comoPedir": "Ir a uma farmácia credenciada com documento, CPF e receita.",
+      "baseLegal": "Programa do Ministério da Saúde (regulamentado por portarias)",
+      "confianca": "parcial",
+      "fontes": [
+        { "texto": "Ministério da Saúde: Farmácia Popular, tire suas dúvidas", "url": "https://www.gov.br/saude/pt-br/assuntos/saude-com-ciencia/noticias/2025/junho/farmacia-popular-tire-suas-duvidas-sobre-o-programa" }
+      ]
+    },
+    {
+      "id": "tarifa-social-energia",
+      "nome": "Tarifa Social de Energia Elétrica",
+      "categoria": "Moradia e contas",
+      "orgao": "Ministério de Minas e Energia / Aneel",
+      "tipo": "assistencial",
+      "resumo": "Desconto na conta de luz para famílias de baixa renda. Para a faixa mais baixa, a energia é gratuita até 80 kWh por mês.",
+      "quem": [
+        "Famílias no CadÚnico com renda de até meio salário mínimo por pessoa (inclui indígenas e quilombolas).",
+        "Idosos com 65 anos ou mais e pessoas com deficiência que recebem o BPC.",
+        "Famílias no CadÚnico com renda de até 3 salários mínimos e alguém que dependa de equipamento médico movido a energia.",
+        "Faixa de renda entre meio e um salário mínimo por pessoa: desconto menor, para consumo de até 120 kWh por mês."
+      ],
+      "criterios": { "rendaPerCapitaSM": 0.5 },
+      "estrangeiros": {
+        "pode": "depende",
+        "texto": "O benefício vincula-se ao CadÚnico ou ao BPC, sem exigência de nacionalidade nas páginas consultadas. Vale a mesma ressalva do Bolsa Família sobre documentação.",
+        "confianca": "nao-verificado"
+      },
+      "duracao": "Enquanto a família continuar no CadÚnico atualizado e dentro dos critérios.",
+      "condicoes": "Manter o CadÚnico atualizado.",
+      "valor": "100% de desconto até 80 kWh por mês na faixa mais baixa; o que passar disso é cobrado normalmente.",
+      "comoPedir": "Concedido automaticamente a quem tem CadÚnico atualizado, segundo o Ministério. Em caso de dúvida, procurar a distribuidora ou o CRAS.",
+      "baseLegal": "Lei 12.212/2010 e atualizações recentes",
+      "confianca": "parcial",
+      "fontes": [
+        { "texto": "MME: Luz do Povo", "url": "https://www.gov.br/mme/pt-br/luzdopovo" },
+        { "texto": "MME: Novo desconto social na conta de luz", "url": "https://www.gov.br/mme/pt-br/assuntos/noticias/novo-desconto-social-na-conta-de-luz-ja-beneficia-familias-de-baixa-renda-em-todo-o-brasil" }
+      ]
+    },
+    {
+      "id": "sus",
+      "nome": "Atendimento no SUS",
+      "categoria": "Saúde",
+      "orgao": "Ministério da Saúde, estados e municípios",
+      "tipo": "universal",
+      "resumo": "Acesso gratuito a consultas, exames, internações, vacinas e medicamentos da rede pública, sem exigir contribuição.",
+      "quem": [
+        "Qualquer pessoa que precise de atendimento: a Constituição define a saúde como direito de todos e dever do Estado.",
+        "A Lei de Migração (13.445/2017, art. 4º) garante ao migrante acesso a serviços públicos de saúde em igualdade com nacionais."
+      ],
+      "criterios": {},
+      "estrangeiros": {
+        "pode": "sim",
+        "texto": "Sim. A Constituição (art. 196) e a Lei de Migração (art. 4º) garantem o acesso. O Cartão Nacional de Saúde pode ser emitido sem comprovar regularidade migratória, mas esse último ponto não foi checado em fonte oficial nesta coleta.",
+        "confianca": "confirmado"
+      },
+      "duracao": "Sem prazo.",
+      "condicoes": "Nenhuma de renda ou nacionalidade.",
+      "valor": "Gratuito.",
+      "comoPedir": "Procurar a Unidade Básica de Saúde mais próxima ou pronto-atendimento.",
+      "baseLegal": "Constituição, arts. 196 a 200; Lei 8.080/1990; Lei 13.445/2017, art. 4º",
+      "confianca": "confirmado",
+      "fontes": [
+        { "texto": "Constituição Federal: art. 196", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+        { "texto": "Lei de Migração (13.445/2017)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm" }
+      ]
+    }
+  ]
+}
