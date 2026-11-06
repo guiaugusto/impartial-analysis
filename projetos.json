@@ -28,5 +28,15 @@
     "statusTexto": "Em andamento",
     "atualizado": "2026-11-06",
     "url": "guia-politico-explicado/"
+  },
+  {
+    "id": "linha-do-tempo-nova-republica",
+    "titulo": "Empresas na Nova República, setor por setor",
+    "descricao": "Linha do tempo de 1985 até hoje com entradas, saídas e mudanças de empresas em 14 setores, faixas por presidente, marcos nacionais, justificativa de cada caso e comparação com outros países. Filtro por setor com botões de ícone.",
+    "tags": ["Nova República", "Empresas", "Setores", "Presidentes"],
+    "status": "em-andamento",
+    "statusTexto": "Em andamento",
+    "atualizado": "2026-11-06",
+    "url": "linha-do-tempo-nova-republica/"
   }
 ]

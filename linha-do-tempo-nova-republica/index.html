@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linha do tempo da Nova República por setor</title>
+<meta name="description" content="Entradas, saídas e mudanças de empresas no Brasil de 1985 até hoje, por setor e por governo, com a justificativa dada em cada caso, comparação internacional e ações.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<main class="wrap">
+
+<header class="intro">
+  <p class="crumb"><a href="../">← Todos os projetos</a></p>
+  <p class="kicker">Brasil · 1985 até hoje</p>
+  <h1>Empresas na Nova República, setor por setor</h1>
+  <p class="lead">Cada linha é um setor da economia. Cada marcador é uma empresa que chegou, saiu ou mudou de dono. Escolha os setores nos botões, role a linha do tempo e toque num marcador para ler o resumo, a justificativa dada e o que aconteceu em outros países.</p>
+</header>
+
+<noscript><p class="aviso">Este projeto precisa de JavaScript para desenhar a linha do tempo.</p></noscript>
+<p id="erro" class="aviso" hidden></p>
+
+<p class="aviso-amostra" id="aviso-amostra"><strong>Leia antes:</strong> esta é uma amostra curada de casos conhecidos, não o cadastro de todas as empresas do país. Os marcadores mostram quando algo aconteceu, não provam que o governo da época causou o fato. Cada caso e cada marco traz links para as fontes (abrem em nova aba), e quando as fontes discordam em data ou valor, a página mostra a divergência. <strong>Limite importante:</strong> boa parte dos casos se apoia só em imprensa, sem o documento original (comunicado da empresa, decisão de órgão público ou da Justiça), e eu li os resumos das buscas, nem sempre a página inteira. Esses casos têm o selo “Sem documento primário”. <a href="#t-limites">Veja todos os limites</a>.</p>
+
+<section class="card" aria-labelledby="t-setores">
+  <div class="linha-titulo">
+    <h2 id="t-setores" class="h-pequeno">Setores</h2>
+    <span id="filtro-resumo" class="muted"></span>
+  </div>
+  <div id="setores" class="setores" role="group" aria-label="Filtrar por setor"></div>
+  <div class="linha-titulo">
+    <h2 class="h-pequeno">Tipo de acontecimento</h2>
+  </div>
+  <div id="tipos" class="chips" role="group" aria-label="Filtrar por tipo de acontecimento"></div>
+</section>
+
+<section aria-labelledby="t-linha">
+  <h2 id="t-linha" class="serif">Linha do tempo</h2>
+  <p class="texto">As faixas no topo mostram quem presidia o país. As linhas pontilhadas verticais são marcos nacionais que ajudam a ler o contexto. Role para os lados para ver todos os anos.</p>
+  <div class="painel-tl">
+    <div id="tl" class="tl" role="region" aria-label="Linha do tempo por setor, role para os lados" tabindex="0"></div>
+  </div>
+</section>
+
+<section aria-labelledby="t-gov">
+  <h2 id="t-gov" class="serif">Por governo</h2>
+  <p class="texto">Contagem de acontecimentos da amostra, dentro dos filtros escolhidos. A coluna “por ano” divide pelo tempo no cargo, mas isso não mede impacto: governos mais recentes têm mais registro e mais cobertura da imprensa, e o que ocorre no mundo (crises, preços de commodities, juros) pesa muito. Nos anos 1985 a 1990 o país tinha economia fechada, com reserva de mercado na informática e poucas importações, então a amostra para o governo Sarney é a mais fraca de todas.</p>
+  <div class="card">
+    <div class="tabela-wrap">
+      <table class="larga">
+        <thead><tr><th>Governo</th><th>Período</th><th>Entradas</th><th>Saídas</th><th>Mudanças</th><th>Total</th><th>Por ano</th></tr></thead>
+        <tbody id="gov-corpo"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="t-lista">
+  <h2 id="t-lista" class="serif">Lista dos acontecimentos</h2>
+  <p class="texto" id="lista-intro"></p>
+  <div id="lista" class="lista"></div>
+  <p id="sem-eventos" class="muted" hidden>Nenhum acontecimento com esses filtros.</p>
+</section>
+
+<section aria-labelledby="t-limites">
+  <h2 id="t-limites" class="serif">O que esta página ainda não garante</h2>
+  <ul class="fontes">
+    <li><strong>Fontes primárias incompletas.</strong> <span id="limite-contagem"></span> Nesses casos, os links levam a reportagens, estudos ou posições de partes interessadas, não ao documento original.</li>
+    <li><strong>Leitura parcial das fontes.</strong> Os links foram achados em busca na web e os fatos foram conferidos pelos resumos dos resultados, nem sempre pela página inteira. Antes de citar um dado, abra a fonte e confirme.</li>
+    <li><strong>Amostra, não cadastro.</strong> São casos conhecidos e noticiados. Empresas pequenas e saídas discretas aparecem menos (viés de sobrevivência e de notoriedade).</li>
+    <li><strong>Sem prova de causa.</strong> A data de um fato dentro de um governo não mostra que o governo o causou.</li>
+    <li><strong>Ações ainda não coletadas.</strong> A coluna de ações traz só contexto em texto. Não há série de preços nem análise de impacto no valor das empresas.</li>
+    <li><strong>Comparação internacional parcial.</strong> Só aparece onde achei fonte. “Ainda não pesquisada” não significa que não houve caso parecido em outros países.</li>
+  </ul>
+</section>
+
+<section aria-labelledby="t-fontes">
+  <h2 id="t-fontes" class="serif">Fontes e metodologia</h2>
+  <ul class="fontes">
+    <li><strong>Escolha dos casos.</strong> Reuni casos amplamente noticiados de entrada, saída e mudança de controle, tentando cobrir todos os setores. Há casos relevantes que ficaram de fora.</li>
+    <li><strong>Justificativa.</strong> Cada caso diz quem deu a explicação: <em>declarada</em> (pela empresa, pelo governo ou pelas partes), <em>leitura da imprensa</em> (interpretação sem declaração oficial) ou <em>não divulgada</em>.</li>
+    <li><strong>Fontes.</strong> Cada link foi encontrado em busca na web e lido no resumo do resultado, nem sempre na íntegra. Cada fonte é rotulada como documento oficial, empresa, imprensa, estudo ou análise, ou parte interessada (sindicato, crítico ou defensor), para você pesar o ponto de vista. Onde só achei imprensa, falta o documento primário.</li>
+    <li><strong>Precisão.</strong> Casos marcados “data ou detalhes a conferir” têm fontes que divergem ou não fecham a data exata. Os valores em reais ou dólares mudam de uma fonte para outra e aparecem como foram reportados.</li>
+    <li><strong>Marcos nacionais.</strong> Servem de contexto. Plano Real, câmbio, crises globais e pandemia afetam todas as empresas, de qualquer governo.</li>
+    <li><strong>Próximas etapas.</strong> Série agregada de abertura e baixa de CNPJs (Receita Federal e IBGE), séries de preços das ações das empresas listadas e comparação internacional mais completa.</li>
+  </ul>
+  <p class="pequeno">Faixas de governo usam cores neutras de propósito. A data de afastamento de Dilma Rousseff (12/05/2016) separa o período dela do de Michel Temer, interino até 31/08/2016.</p>
+</section>
+
+</main>
+
+<dialog id="detalhe" aria-labelledby="det-titulo"></dialog>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

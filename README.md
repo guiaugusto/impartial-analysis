@@ -9,6 +9,11 @@ Espaço de estudo sobre política e economia, para formar pensamento crítico a 
 |---|---|
 | Resumo imparcial do 2º turno de 2026 (mapa, horário de votação, ocorrências, análise) | [`resumo-imparcial-eleicoes-2026/`](resumo-imparcial-eleicoes-2026/) |
 | Gasolina e salário mínimo, mês a mês (preço da gasolina por mês e por município, litros por salário, contexto de cada variação) | [`gasolina-vs-salario-minimo/`](gasolina-vs-salario-minimo/) |
+| Empresas na Nova República, setor por setor (linha do tempo de 1985 até hoje com entradas, saídas e mudanças, faixas por governo, filtro por setor) | [`linha-do-tempo-nova-republica/`](linha-do-tempo-nova-republica/) |
+
+## Padrão obrigatório
+
+Todo projeto segue a skill [`analise-imparcial`](.claude/skills/analise-imparcial/SKILL.md): **link de fonte em cada fato**, imparcialidade (sem veredito, divergências à mostra, justificativa separada de interpretação), limites declarados e páginas que funcionam bem na web e no celular. O Claude Code do projeto carrega essa skill sozinho ao criar ou alterar projetos.
 
 ## Como adicionar um projeto
 
