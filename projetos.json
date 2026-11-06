@@ -18,5 +18,15 @@
     "statusTexto": "Em andamento",
     "atualizado": "2026-10-26",
     "url": "gasolina-vs-salario-minimo/"
+  },
+  {
+    "id": "guia-politico-explicado",
+    "titulo": "Guia político explicado",
+    "descricao": "Enciclopédia da política brasileira: impeachment, PEC, inelegibilidade, quociente eleitoral, quóruns e o que faz cada cargo, do vereador ao presidente. Passo a passo, com exemplos reais, fonte de cada regra e comparação entre federal, estadual, DF e municipal.",
+    "tags": ["Enciclopédia", "Cargos", "Processos", "Sistema eleitoral"],
+    "status": "em-andamento",
+    "statusTexto": "Em andamento",
+    "atualizado": "2026-11-06",
+    "url": "guia-politico-explicado/"
   }
 ]

@@ -1,3 +1,4 @@
+| Guia político explicado (enciclopédia de processos, cargos, instituições e conceitos da política brasileira, com exemplos e fontes; federal, estadual, DF e municipal) | [`guia-politico-explicado/`](guia-politico-explicado/) |
 # impartial-analysis
 
 Espaço de estudo sobre política e economia, para formar pensamento crítico a partir de dados públicos. Cada microprojeto cita as fontes, marca o que não é confirmado e declara o que os dados não permitem concluir. A página inicial, publicada no GitHub Pages, indexa todos os projetos.
