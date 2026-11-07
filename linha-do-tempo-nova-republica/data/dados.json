@@ -1,0 +1,1158 @@
+{
+  "setores": [
+    { "id": "automotivo", "nome": "Automotivo", "icone": "🚗" },
+    { "id": "financeiro", "nome": "Bancos e finanças", "icone": "🏦" },
+    { "id": "varejo", "nome": "Varejo", "icone": "🛒" },
+    { "id": "tecnologia", "nome": "Tecnologia e internet", "icone": "💻" },
+    { "id": "telecom", "nome": "Telecomunicações", "icone": "📡" },
+    { "id": "energia", "nome": "Energia e petróleo", "icone": "⛽" },
+    { "id": "mineracao", "nome": "Mineração e siderurgia", "icone": "⛏️" },
+    { "id": "alimentos", "nome": "Alimentos e agro", "icone": "🌾" },
+    { "id": "aviacao", "nome": "Aviação e transporte", "icone": "✈️" },
+    { "id": "saude", "nome": "Saúde", "icone": "💊" },
+    { "id": "educacao", "nome": "Educação", "icone": "🎓" },
+    { "id": "industria", "nome": "Indústria e eletrônicos", "icone": "🏭" },
+    { "id": "construcao", "nome": "Construção e infraestrutura", "icone": "🏗️" },
+    { "id": "midia", "nome": "Mídia e entretenimento", "icone": "🎬" }
+  ],
+
+  "presidentes": [
+    { "id": "sarney", "nome": "José Sarney", "curto": "Sarney", "inicio": "1985-03-15", "fim": "1990-03-15", "nota": "Assumiu em 1985 após a doença e a morte de Tancredo Neves, eleito indiretamente." },
+    { "id": "collor", "nome": "Fernando Collor", "curto": "Collor", "inicio": "1990-03-15", "fim": "1992-12-29", "nota": "Renunciou em 29/12/1992, durante o processo de impeachment." },
+    { "id": "itamar", "nome": "Itamar Franco", "curto": "Itamar", "inicio": "1992-12-29", "fim": "1995-01-01", "nota": "Era vice-presidente e assumiu com a saída de Collor." },
+    { "id": "fhc", "nome": "Fernando Henrique Cardoso", "curto": "FHC", "inicio": "1995-01-01", "fim": "2003-01-01", "nota": "Dois mandatos consecutivos." },
+    { "id": "lula1", "nome": "Luiz Inácio Lula da Silva (1º e 2º mandatos)", "curto": "Lula", "inicio": "2003-01-01", "fim": "2011-01-01", "nota": "Dois mandatos consecutivos." },
+    { "id": "dilma", "nome": "Dilma Rousseff", "curto": "Dilma", "inicio": "2011-01-01", "fim": "2016-05-12", "nota": "Afastada em 12/05/2016 para o julgamento do impeachment, aprovado em 31/08/2016." },
+    { "id": "temer", "nome": "Michel Temer", "curto": "Temer", "inicio": "2016-05-12", "fim": "2019-01-01", "nota": "Interino a partir de 12/05/2016 e efetivo desde 31/08/2016." },
+    { "id": "bolsonaro", "nome": "Jair Bolsonaro", "curto": "Bolsonaro", "inicio": "2019-01-01", "fim": "2023-01-01", "nota": "" },
+    { "id": "lula2", "nome": "Luiz Inácio Lula da Silva (3º mandato)", "curto": "Lula", "inicio": "2023-01-01", "fim": null, "nota": "Em exercício." }
+  ],
+
+  "marcos": [
+    {
+      "id": "m-constituicao", "data": "1988-10", "nome": "Constituição de 1988",
+      "texto": "Promulgada em 5 de outubro de 1988, define a ordem econômica, os monopólios da União e o papel do Estado na economia.",
+      "fontes": [
+        { "titulo": "Planalto: Constituição da República Federativa do Brasil de 1988", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm", "tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "m-collor", "data": "1990-03", "nome": "Plano Collor",
+      "texto": "Anunciado em 16/03/1990, bloqueou por 18 meses saques acima de 50 mil cruzados novos em contas e aplicações. Foi baseado na Medida Provisória 168, de 15/03/1990, convertida na Lei 8.024, de 12/04/1990. Em 2020, Collor pediu desculpas pela medida. Análises acadêmicas criticam o desenho do plano.",
+      "fontes": [
+        { "titulo": "Politize: Plano Collor", "url": "https://www.politize.com.br/plano-collor/", "tipo": "imprensa" },
+        { "titulo": "Conjur: imagens da história, o dia em que Collor confiscou a poupança (2009)", "url": "https://www.conjur.com.br/2009-jun-25/imagens-historia-dia-collor-confiscou-poupanca//?print=1", "tipo": "imprensa" },
+        { "titulo": "Poder360: Collor pede desculpas pelo confisco da poupança em 1990", "url": "https://www.poder360.com.br/congresso/collor-pede-desculpas-pelo-confisco-da-poupanca-em-1990/", "tipo": "imprensa" }
+      ]
+    },
+    {
+      "id": "m-mercosul", "data": "1991-03", "nome": "Mercosul",
+      "texto": "O Tratado de Assunção, de 26/03/1991, criou o bloco com Brasil, Argentina, Paraguai e Uruguai, prevendo livre circulação de bens e uma tarifa externa comum. Entrou em vigor em 29/11/1991.",
+      "fontes": [
+        { "titulo": "Poder360: há 30 anos, criação do Mercosul", "url": "https://www.poder360.com.br/brasil/ha-30-anos-criacao-do-mercosul-pos-fim-as-tensoes-entre-brasil-e-argentina/", "tipo": "imprensa" },
+        { "titulo": "Câmara dos Deputados: histórico do Mercosul", "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-mistas/cpcms/historico/blocoseconomicos.html/mercosul.html", "tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "m-real", "data": "1994-07", "nome": "Plano Real",
+      "texto": "A nova moeda entrou em circulação em 1º/07/1994, depois da fase da URV (unidade de conta usada desde março). A conversão fixou CR$ 2.750 para R$ 1. A inflação, que superava 5.000% ao ano, caiu para dois dígitos.",
+      "fontes": [
+        { "titulo": "Correio Braziliense: 30 anos do Plano Real", "url": "https://www.correiobraziliense.com.br/economia/2024/07/6888606-30-anos-do-plano-real-nova-moeda-teve-logistica-de-guerra-no-lancamento.html", "tipo": "imprensa" },
+        { "titulo": "Politize: o que foi o Plano Real", "url": "https://www.politize.com.br/plano-real/", "tipo": "imprensa" },
+        { "titulo": "Poder360: inflação caiu de 5.000% para 2 dígitos com o Plano Real", "url": "https://www.poder360.com.br/economia/inflacao-do-brasil-caiu-de-5-000-para-2-digitos-com-plano-real/", "tipo": "imprensa" }
+      ]
+    },
+    {
+      "id": "m-cambio", "data": "1999-01", "nome": "Câmbio flutuante",
+      "texto": "Em janeiro de 1999, sob pressão especulativa depois da crise da Rússia, o Banco Central abandonou a banda cambial e deixou o real flutuar. A moeda se desvalorizou muito em poucas semanas. As fontes divergem entre 15 e 18 de janeiro para a data exata.",
+      "fontes": [
+        { "titulo": "Banco Central do Brasil: análise do mercado de câmbio, câmbio flutuante (jan/1999)", "url": "https://www.bcb.gov.br/rex/MerCambio/Port/cambio991/1999-1Flutuante.asp?frame=1", "tipo": "oficial" },
+        { "titulo": "Agência Senado: dólar no túnel do tempo", "url": "https://www2.senado.leg.br/jspui/bitstream/id/65585/1/noticia.htm", "tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "m-lrf", "data": "2000-05", "nome": "Lei de Responsabilidade Fiscal",
+      "texto": "A Lei Complementar 101, de 4 de maio de 2000, estabelece normas de finanças públicas e limites de gasto e endividamento para União, estados e municípios.",
+      "fontes": [
+        { "titulo": "Planalto: Lei Complementar 101, de 4 de maio de 2000", "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm", "tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "m-crise08", "data": "2008-09", "nome": "Crise financeira global",
+      "texto": "O Lehman Brothers pediu falência em 15/09/2008, depois de os bancos centrais e o governo dos EUA não encontrarem comprador nem instrumento legal para evitar a quebra, segundo o então presidente do Fed, Ben Bernanke.",
+      "fontes": [
+        { "titulo": "Federal Reserve History: apoio a instituições específicas (Lehman, AIG)", "url": "https://www.federalreservehistory.org/-/media/Project/FedHistory/FedHistory/Documents/essaysPDFs/Support-for-Specific-Institutions-_-Federal-Reserve-History.pdf", "tipo": "oficial" },
+        { "titulo": "Federal Reserve: depoimento de Ben Bernanke (20/04/2010)", "url": "https://www.federalreserve.gov/newsevents/testimony/files/bernanke20100420a.pdf", "tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "m-lavajato", "data": "2014-03", "nome": "Operação Lava Jato",
+      "texto": "A primeira fase foi em 17/03/2014, com mandados de prisão contra 17 pessoas, entre elas o doleiro Alberto Youssef. A operação atingiu a Petrobras e as maiores empreiteiras do país. Há avaliações opostas sobre seus métodos e resultados, e as fontes abaixo trazem as duas leituras.",
+      "fontes": [
+        { "titulo": "IstoÉ Dinheiro: Lava Jato, ascensão, auge e declínio de uma operação", "url": "https://istoedinheiro.com.br/lava-jato-ascensao-auge-e-declinio-de-uma-operacao", "tipo": "imprensa" },
+        { "titulo": "Jovem Pan: a operação fez a percepção da impunidade mudar no Brasil (leitura favorável)", "url": "https://jovempan.com.br/noticias/especial-lava-jato-operacao-fez-com-que-percepcao-da-impunidade-mudasse-no-brasil/", "tipo": "imprensa" },
+        { "titulo": "Empório do Direito: cinco anos de Lava Jato, não há o que comemorar (leitura crítica)", "url": "https://www.emporiododireito.com.br/leitura/cinco-anos-de-lava-jato-nao-ha-o-que-comemorar", "tipo": "parte" }
+      ]
+    },
+    {
+      "id": "m-recessao", "data": "2015-01", "nome": "Recessão 2015-2016",
+      "texto": "O PIB recuou 3,8% em 2015 e 3,6% em 2016 segundo o IBGE, a primeira vez em que a série iniciada em 1948 registrou dois anos seguidos de queda. O Codace, comitê de datação de ciclos da FGV, apontou o fim da recessão em dezembro de 2016.",
+      "fontes": [
+        { "titulo": "Congresso em Foco: PIB encolhe 3,6% em 2016 e país vive recessão mais longa", "url": "https://www.congressoemfoco.com.br/noticia/35712/pib-encolhe-36-em-2016-e-pais-vive-recessao-mais-longa", "tipo": "imprensa" },
+        { "titulo": "Exame: recessão no Brasil chegou ao fim em dezembro (Codace)", "url": "https://exame.com/economia/recessao-brasil-chegou-fim-dezembro/", "tipo": "imprensa" }
+      ]
+    },
+    {
+      "id": "m-trabalhista", "data": "2017-07", "nome": "Reforma trabalhista",
+      "texto": "Lei 13.467, de 13 de julho de 2017, altera a CLT e outras leis trabalhistas.",
+      "fontes": [
+        { "titulo": "Planalto: Lei 13.467, de 13 de julho de 2017", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13467.htm", "tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "m-pandemia", "data": "2020-03", "nome": "Pandemia de covid-19",
+      "texto": "A OMS declarou a pandemia em 11/03/2020, com cerca de 118 mil casos em 114 países. Na mesma data o Brasil tinha 36 casos confirmados, segundo o Ministério da Saúde.",
+      "fontes": [
+        { "titulo": "Jornal Opção: OMS declara proliferação de coronavírus como pandemia", "url": "https://www.jornalopcao.com.br/ultimas-noticias/oms-declara-proliferacao-de-coronavirus-como-pandemia-240677/", "tipo": "imprensa" },
+        { "titulo": "Gazeta SP: há um ano, OMS declarava pandemia", "url": "https://www.gazetasp.com.br/cotidiano/covid-19-ha-um-ano-oms-declarava-pandemia/", "tipo": "imprensa" }
+      ]
+    },
+    {
+      "id": "m-tributaria", "data": "2023-12", "nome": "Reforma tributária",
+      "texto": "A Emenda Constitucional 132, promulgada em 20/12/2023, altera o sistema tributário nacional.",
+      "fontes": [
+        { "titulo": "Planalto: Emenda Constitucional 132, de 20 de dezembro de 2023", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm", "tipo": "oficial" }
+      ]
+    },
+    {
+      "id": "m-tarifaco", "data": "2025-08", "nome": "Tarifas dos EUA",
+      "texto": "Ordem executiva assinada em 30/07/2025 elevou para 50% a tarifa total sobre produtos brasileiros (adicional de 40% sobre os 10% já em vigor), a partir de 6 de agosto. Cerca de 700 itens ficaram de fora, como suco de laranja, aviões, minérios e celulose. A ordem cita ameaça à segurança nacional dos EUA ligada a ações do governo brasileiro; reportagens a descrevem como de motivação mais política que econômica.",
+      "fontes": [
+        { "titulo": "Band: tarifaço entra em vigor", "url": "https://www.band.com.br/noticias/tarifaco-de-donald-trump-sobre-o-brasil-entra-em-vigor-202508060732", "tipo": "imprensa" },
+        { "titulo": "Bloomberg Línea: Trump assina ordem que confirma tarifas de 50%, mas abre exceções", "url": "https://www.bloomberglinea.com.br/internacional/trump-cita-ameaca-do-governo-brasileiro-e-implementa-tarifas-de-50-contra-o-pais/", "tipo": "imprensa" },
+        { "titulo": "Acionista: tarifaço deixa de fora aviões, minérios e suco de laranja", "url": "https://acionista.com.br/tarifaco-de-trump-deixa-de-fora-avioes-minerios-e-suco-de-laranja/", "tipo": "imprensa" }
+      ]
+    }
+  ],
+
+  "eventos": [
+    {
+      "id": "autolatina-inicio", "empresa": "Autolatina", "setor": "automotivo", "data": "1987-07", "tipo": "mudanca",
+      "rotulo": "Volkswagen e Ford unem operações no Brasil e na Argentina",
+      "resumo": "Em julho de 1987, a Volkswagen do Brasil e a Ford Brasil formaram a Autolatina (51% VW e 49% Ford), reunindo também as filiais argentinas, com produtos e fábricas compartilhados. Carros como Verona/Apollo e Escort/Pointer vieram dessa união.",
+      "motivo": "Segundo a imprensa especializada, o objetivo era reduzir custos e o tempo de desenvolvimento dos veículos.",
+      "motivoTipo": "interpretacao",
+      "internacional": null,
+      "acoes": "Matrizes listadas (Volkswagen na Alemanha, Ford na NYSE).",
+      "fontes": [
+        { "titulo": "Wikipédia (inglês): AutoLatina", "url": "https://en.wikipedia.org/wiki/AutoLatina", "tipo": "imprensa" },
+        { "titulo": "Autoentusiastas: Ford e Volkswagen", "url": "https://autoentusiastas.com.br/2017/01/ford-volkswagen/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "autolatina-fim", "empresa": "Autolatina (fim)", "setor": "automotivo", "data": "1995", "aprox": true, "tipo": "saida",
+      "rotulo": "Volkswagen e Ford desfazem a sociedade",
+      "resumo": "A Autolatina foi desfeita em 1995, e as duas marcas voltaram a competir separadamente. As fontes divergem sobre a data: a Wikipédia indica dezembro de 1995, o jornal alemão Börsen-Zeitung fala em março de 1995 e duas fontes citam 1996.",
+      "motivo": "A imprensa especializada aponta desconfiança entre as matrizes, por receio de vazamento de segredos industriais, e queda da participação de mercado de ambas depois da união.",
+      "motivoTipo": "interpretacao",
+      "internacional": null,
+      "acoes": "Matrizes listadas (Volkswagen na Alemanha, Ford na NYSE).",
+      "fontes": [
+        { "titulo": "Autopapo: Autolatina, o casamento frustrado entre Ford e VW", "url": "https://autopapo.com.br/noticia/autolatina-o-casamento-frustrado-entre-ford-e-vw/", "tipo": "imprensa" },
+        { "titulo": "Wikipédia (inglês): AutoLatina", "url": "https://en.wikipedia.org/wiki/AutoLatina", "tipo": "imprensa" },
+        { "titulo": "Börsen-Zeitung: Der dritte Anlauf", "url": "https://www.boersen-zeitung.de/unternehmen-branchen/der-dritte-anlauf", "tipo": "imprensa" }
+      ],
+      "fato": "a-conferir"
+    },
+    {
+      "id": "usiminas", "empresa": "Usiminas", "setor": "mineracao", "data": "1991-10", "tipo": "mudanca",
+      "rotulo": "Primeira grande privatização do Programa Nacional de Desestatização",
+      "resumo": "Em 24/10/1991, a Usiminas foi vendida em leilão na Bolsa do Rio de Janeiro, com manifestantes cercando o prédio. O programa de privatizações foi criado em 1990 (Lei 8.031/90). O plano de Collor previa privatizar 68 empresas, mas só 18 foram vendidas. O valor da venda aparece de formas diferentes nas fontes (cerca de US$ 1,5 bilhão ou US$ 2,3 bilhões), então vale conferir no BNDES.",
+      "motivo": "Os argumentos do governo e dos críticos estão nas fontes abaixo; não os resumi aqui.",
+      "motivoTipo": "indisponivel",
+      "internacional": {
+        "texto": "Privatizações de estatais ocorreram em vários países da América Latina: o relatório da UIT mostra que, até 1999, a maioria dos países das Américas tinha telecomunicações total ou parcialmente privatizadas, e a venda da mexicana Telmex foi feita em dezembro de 1990.",
+        "fontes": [
+          { "titulo": "UIT: relatório sobre telecomunicações nas Américas (2000)", "url": "https://itu.int/ITU-D/ict/publications/americas/2000/sum_s/sum_s.pdf", "tipo": "oficial" },
+          { "titulo": "Britannica: Telmex", "url": "https://Www.Britannica.Com/money/Telmex-SA", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Ações negociadas em bolsa (USIM5).",
+      "fontes": [
+        { "titulo": "BNDES: histórico das desestatizações", "url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/projetos-encerrados/historico", "tipo": "oficial" },
+        { "titulo": "Poder360: privatizações avançaram com a redemocratização", "url": "https://www.poder360.com.br/poder-infra/privatizacoes-avancaram-com-redemocratizacao", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "csn", "empresa": "CSN", "setor": "mineracao", "data": "1993-04", "tipo": "mudanca",
+      "rotulo": "Privatização da Companhia Siderúrgica Nacional",
+      "resumo": "A CSN, de Volta Redonda (RJ), foi privatizada em abril de 1993 em leilão na Bolsa do Rio. O processo começou no governo Collor e terminou no de Itamar Franco. O grupo liderado por Benjamin Steinbruch assumiu o controle. Uma fonte acadêmica aponta preço de R$ 1,05 bilhão, quase todo pago em títulos públicos depreciados (as chamadas moedas podres) financiados pelo próprio BNDES; outra fonte fala em cerca de US$ 1 bilhão.",
+      "motivo": "Os argumentos do governo e dos críticos estão nas fontes abaixo; não os resumi aqui.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (CSNA3).",
+      "fontes": [
+        { "titulo": "Redalyc: artigo acadêmico sobre a privatização da CSN", "url": "https://www.redalyc.org/journal/4011/401172028003/401172028003.pdf", "tipo": "academico" },
+        { "titulo": "Wikipédia (inglês): Companhia Siderúrgica Nacional", "url": "https://en.wikipedia.org/wiki/Companhia_Sider%C3%BArgica_Nacional", "tipo": "imprensa" },
+        { "titulo": "Fundação Perseu Abramo: O Brasil Privatizado, cap. 1 (leitura crítica)", "url": "https://fpabramo.org.br/?p=41122", "tipo": "parte" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "embraer", "empresa": "Embraer", "setor": "aviacao", "data": "1994-12", "tipo": "mudanca",
+      "rotulo": "Privatização da fabricante de aviões",
+      "resumo": "A Embraer foi privatizada em dezembro de 1994 (7/12, segundo a Wikipédia), depois de um leilão adiado seis vezes. A Aviation Week registra a venda de 55,4% das ações com voto por US$ 182,4 milhões. O edital (PND-A-05/94) reservou à União uma ação especial (golden share), com poder de veto em decisões estratégicas, como a transferência de controle.",
+      "motivo": "Os argumentos do governo e dos críticos estão nas fontes abaixo; não os resumi aqui.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (EMBR3).",
+      "fontes": [
+        { "titulo": "Aviation Week: Embraer privatized", "url": "https://aviationweek.com/embraer-privatized", "tipo": "imprensa" },
+        { "titulo": "Capital Aberto: Sem amarras", "url": "https://capitalaberto.com.br/?p=2155", "tipo": "imprensa" },
+        { "titulo": "Jus.com.br: golden share, livre iniciativa versus soberania nacional, o caso da Embraer", "url": "https://jus.com.br/artigos/93681/golden-share-livre-iniciativa-versus-soberania-nacional-o-caso-da-embraer", "tipo": "academico" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "walmart-entrada", "empresa": "Walmart", "setor": "varejo", "data": "1995-05", "tipo": "entrada",
+      "rotulo": "Chegada da maior varejista do mundo",
+      "resumo": "O Walmart entrou no Brasil em maio de 1995, com uma loja Sam's Club em São Paulo, a primeira da América do Sul, e abriu o primeiro hipermercado Walmart em Osasco (SP) no mesmo ano. Depois ampliou a presença comprando a rede Bompreço (2004, cerca de US$ 300 milhões) e a operação da Sonae no Brasil (2005, R$ 1,7 bilhão).",
+      "motivo": "Não localizei declaração da empresa sobre o motivo da entrada nas fontes consultadas.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Matriz listada na NYSE (WMT).",
+      "fontes": [
+        { "titulo": "Supermarket News: Sam's greeted warmly in Brazil", "url": "https://www.supermarketnews.com/independents-regional-grocers/sam-s-greeted-warmly-in-brazil", "tipo": "imprensa" },
+        { "titulo": "IstoÉ Dinheiro: para lucrar no Brasil é preciso investir no povão", "url": "https://istoedinheiro.com.br/para-lucrar-no-brasil-e-preciso-investir-no-povao", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "proer", "empresa": "Banco Nacional (Proer)", "setor": "financeiro", "data": "1995-11", "tipo": "saida",
+      "rotulo": "Criação do Proer e socorro ao Banco Nacional",
+      "resumo": "A Resolução 2.208 do Conselho Monetário Nacional, de 3/11/1995, criou o Proer, programa de estímulo à reestruturação do sistema financeiro. A primeira operação foi com o Banco Nacional, que recebeu linhas de crédito em 18/11/1995 e foi comprado pelo Unibanco. Sete bancos privados receberam recursos do programa, que acelerou a concentração bancária.",
+      "motivo": "O ex-presidente do Banco Central Gustavo Loyola defendeu o programa como necessário para evitar uma crise sistêmica. Em 2002, o Ministério Público Federal acusou de improbidade dirigentes envolvidos.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Banco com ações em bolsa na época; histórico a conferir.",
+      "fontes": [
+        { "titulo": "Banco Central: Resolução 2.208, de 3/11/1995", "url": "https://www.bcb.gov.br/pre/normativos/res/1995/pdf/res_2208_v2_L.pdf", "tipo": "oficial" },
+        { "titulo": "Câmara dos Deputados: relatório final da CPI do Proer, cap. 2", "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/parlamentar-de-inquerito/51-legislatura/cpiproer/relatoriofinal/cap2proer.pdf", "tipo": "oficial" },
+        { "titulo": "Tribuna PR: bancos do Proer ainda têm dívida", "url": "https://www.tribunapr.com.br/noticias/economia/bancos-do-proer-ainda-tem-uma-divida-de-r-293-bilhoes/amp/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "light", "empresa": "Light", "setor": "energia", "data": "1996-05", "tipo": "mudanca",
+      "rotulo": "Privatização da distribuidora do Rio de Janeiro",
+      "resumo": "A Light foi privatizada em leilão na Bolsa do Rio em 21/05/1996. O controle foi para um grupo com a francesa EDF, as americanas Houston Industries e AES, o BNDESPAR e a CSN, entre outros. O valor varia entre as fontes (cerca de US$ 1,7 bilhão a US$ 2,26 bilhões).",
+      "motivo": "Os argumentos do governo e dos críticos estão nas fontes abaixo; não os resumi aqui.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (LIGT3).",
+      "fontes": [
+        { "titulo": "Wikipédia (inglês): Light Serviços de Eletricidade", "url": "https://en.wikipedia.org/wiki/Light_Servi%C3%A7os_de_Eletricidade", "tipo": "imprensa" },
+        { "titulo": "BNDES (biblioteca): a questão regulatória nas privatizações da Light e da Escelsa", "url": "https://web.bndes.gov.br/bib/jspui/handle/1408/15260", "tipo": "oficial" },
+        { "titulo": "CUT: privatizada em 1996, Light diz que está sem caixa (leitura sindical)", "url": "https://www.cut.org.br/noticias/privatizada-em-1996-light-diz-que-esta-sem-caixa-para-garantir-suas-operacoes-e9fa/amp", "tipo": "parte" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "rffsa", "empresa": "RFFSA (ferrovias)", "setor": "aviacao", "data": "1996-03", "tipo": "mudanca",
+      "rotulo": "Concessão da malha ferroviária federal",
+      "resumo": "A Rede Ferroviária Federal foi dividida em malhas regionais e concedida em leilões. O primeiro, da Malha Oeste, foi em 5/03/1996 e o último, da Nordeste, em 18/07/1997. As concessões duram 30 anos, prorrogáveis, e somavam 28.628 km. A RFFSA foi dissolvida oficialmente em 2007.",
+      "motivo": "Os argumentos do governo e dos críticos estão nas fontes abaixo; não os resumi aqui.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Várias concessionárias; análise por empresa na etapa de ações.",
+      "fontes": [
+        { "titulo": "BNDES: as concessões ferroviárias (2000)", "url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/23507/1/As%20concess%c3%b5es%20ferrovi%c3%a1rias_2000_159325_P_pdfa.pdf", "tipo": "oficial" },
+        { "titulo": "Wikipédia (inglês): History of rail transport in Brazil", "url": "https://en.wikipedia.org/wiki/History_of_rail_transport_in_Brazil", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "vale", "empresa": "Vale", "setor": "mineracao", "data": "1997-05", "tipo": "mudanca",
+      "rotulo": "Privatização da Companhia Vale do Rio Doce",
+      "resumo": "Em 6/05/1997, na Bolsa do Rio, foram vendidas 41,73% das ações ordinárias da Vale ao Consórcio Brasil, liderado pela CSN e com fundos de pensão como Previ e Petros. O valor mais citado é US$ 3,3 bilhões. A venda foi contestada em dezenas de ações populares na Justiça.",
+      "motivo": "Os argumentos do governo e dos críticos estão nas fontes abaixo; não os resumi aqui.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (VALE3).",
+      "fontes": [
+        { "titulo": "Wikipédia (inglês): privatizações no governo FHC", "url": "https://en.wikipedia.org/wiki/Privatizations_under_the_Fernando_Henrique_Cardoso_presidency", "tipo": "imprensa" },
+        { "titulo": "BrazilGlobal: reforma do Estado e a privatização da Vale", "url": "https://brazilglobal.net/2016/08/03/state-reform-and-the-privatization-of-a-brazilian-champion-the-case-of-vale/", "tipo": "academico" },
+        { "titulo": "Conjur: leilão de desestatização", "url": "https://www.conjur.com.br/?p=526951", "tipo": "imprensa" },
+        { "titulo": "CUT: privatização da Vale, 25 anos (leitura crítica)", "url": "https://www.cut.org.br/noticias/privatizacao-da-vale-25-anos-lucros-e-crimes-evidenciam-mau-negocio-para-o-pais-92a3/", "tipo": "parte" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "lei-petroleo", "empresa": "Petrobras", "setor": "energia", "data": "1997-08", "tipo": "mudanca",
+      "rotulo": "Lei do Petróleo: flexibilização do monopólio",
+      "resumo": "A Lei 9.478, sancionada em 6/08/1997, trata da política energética e das atividades do monopólio da União sobre o petróleo, criando a ANP. Ela veio depois da Emenda Constitucional 9, de 1995, que flexibilizou o monopólio. A doutrina diverge: há quem diga que o monopólio acabou e há quem diga que foi apenas flexibilizado, com livre concorrência por concessão.",
+      "motivo": "Os argumentos do governo e dos críticos estão nas fontes abaixo; não os resumi aqui.",
+      "motivoTipo": "indisponivel",
+      "internacional": {
+        "texto": "O México aprovou em dezembro de 2013 uma reforma que encerrou o monopólio de 75 anos da Pemex e permitiu exploração por empresas privadas.",
+        "fontes": [
+          { "titulo": "Wilson Center: o futuro da indústria petrolífera mexicana após a reforma energética", "url": "https://chinafellowship.wilsoncenter.org/publication/look-the-future-the-mexican-petroleum-industry-after-energy-reform", "tipo": "academico" },
+          { "titulo": "Expansión: reforma energética, Pemex e petróleo", "url": "https://expansion.mx/economia/2013/12/15/reforma-energetica-pemex-petroleo-pri", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Petrobras com ações em bolsa (PETR4).",
+      "fontes": [
+        { "titulo": "Senado: Lei 9.478, de 06/08/1997", "url": "https://legis.senado.leg.br/norma/551354", "tipo": "oficial" },
+        { "titulo": "Câmara dos Deputados: Lei 9.478/1997, publicação original", "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9478-6-agosto-1997-365401-publicacaooriginal-1-pl.html", "tipo": "oficial" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "telebras", "empresa": "Sistema Telebras", "setor": "telecom", "data": "1998-07", "tipo": "mudanca",
+      "rotulo": "Leilão de privatização das telecomunicações",
+      "resumo": "Em 29/07/1998, em 12 leilões na Bolsa do Rio, foi vendido o controle de três holdings de telefonia fixa, uma de longa distância e oito de celular. O BNDES registra R$ 22,057 bilhões arrecadados, com ágio médio de 53,74%. A Telesp foi a mais cara, com R$ 5,783 bilhões.",
+      "motivo": "Os argumentos do governo e dos críticos estão nas fontes abaixo; não os resumi aqui.",
+      "motivoTipo": "indisponivel",
+      "internacional": {
+        "texto": "A venda da Telmex, no México, foi em dezembro de 1990, e o controle ficou com o grupo Carso. O caso é lembrado como exemplo de sucesso por uns e criticado hoje por outros. Na Argentina, a Telefónica e um consórcio de France Telecom e STET assumiram as operadoras.",
+        "fontes": [
+          { "titulo": "El Financiero: Telmex, una privatización exitosa que terminó cuestionada", "url": "https://www.elfinanciero.com.mx/economia/telmex-una-privatizacion-exitosa-que-termino-cuestionada/", "tipo": "imprensa" },
+          { "titulo": "UIT: relatório sobre telecomunicações nas Américas (2000)", "url": "https://itu.int/ITU-D/ict/publications/americas/2000/sum_s/sum_s.pdf", "tipo": "oficial" }
+        ]
+      },
+      "acoes": "Várias empresas sucessoras com ações em bolsa; análise por empresa na etapa de ações.",
+      "fontes": [
+        { "titulo": "BNDES: privatização federal, telecomunicações", "url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/desestatizacao/projetos-encerrados/privatizacao-federais-telecomunicacoes", "tipo": "oficial" },
+        { "titulo": "TecMundo: que fim levou a Telesp", "url": "https://www.tecmundo.com.br/mercado/402614-que-fim-levou-a-telesp-a-antiga-operadora-de-telefonia-fixa-e-movel-do-estado-de-sao-paulo.htm", "tipo": "imprensa" },
+        { "titulo": "Teletime: Telebrás vai a leilão em 29 de julho (1998)", "url": "https://teletime.com.br/28/05/1998/telebras-vai-a-leilao-em-29-de-julho/", "tipo": "imprensa" },
+        { "titulo": "Fundação FHC: artigo sobre a privatização das telecomunicações", "url": "https://fundacaofhc.org.br/files/artigo/1183.pdf", "tipo": "parte" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "anp-rodada1", "empresa": "Petroleiras (1ª rodada ANP)", "setor": "energia", "data": "1999", "aprox": true, "tipo": "entrada",
+      "rotulo": "Primeira rodada de licitações de blocos de petróleo",
+      "resumo": "A ANP realizou em 1999 a Rodada 1, com 12 blocos concedidos a 11 empresas vencedoras, 6 delas novas operadoras no país. Na Rodada 2, em 2000, foram 21 blocos para 16 empresas, 12 novas no país.",
+      "motivo": "A abertura decorre da Lei do Petróleo. Não localizei declaração das empresas sobre o motivo da entrada.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Várias empresas; não se aplica a um papel só.",
+      "fontes": [
+        { "titulo": "ANP: apresentação da 4ª rodada, resumo das quatro primeiras", "url": "https://www.gov.br/anp/pt-br/rodadas-anp/rodadas-concluidas/concessao-de-blocos-exploratorios/4a-rodada-licitacoes-blocos/arquivos/workshop/r4_ws_aspectos_gerais.pdf", "tipo": "oficial" },
+        { "titulo": "ANP: Anuário Estatístico 2001, seção 5", "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2001/secao-5/anuario_2001_s5.pdf", "tipo": "oficial" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "ambev", "empresa": "Ambev", "setor": "alimentos", "data": "1999-07", "tipo": "mudanca",
+      "rotulo": "Fusão de Brahma e Antarctica",
+      "resumo": "A Ambev foi formada em 1º/07/1999 pela fusão de Brahma e Antarctica. O Cade aprovou o ato em 2000 (30/03 segundo a Wikipédia; abril segundo o Senado). Em 2004 a Ambev se integrou à belga Interbrew, formando a InBev.",
+      "motivo": "Não localizei, nas fontes consultadas, declaração das empresas sobre o motivo.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (ABEV3).",
+      "fontes": [
+        { "titulo": "Wikipédia (inglês): Ambev", "url": "https://en.wikipedia.org/wiki/Ambev", "tipo": "imprensa" },
+        { "titulo": "Agência Senado: Cade julga união de ativos com a Interbrew", "url": "https://www2.senado.leg.br/jspui/bitstream/id/451542/1/noticia.htm", "tipo": "oficial" },
+        { "titulo": "SEC: correspondência da Ambev sobre a operação 1999-2000", "url": "https://www.sec.gov/Archives/edgar/data/1113172/000095015706000338/filename1.htm", "tipo": "oficial" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "mercadolivre", "empresa": "Mercado Livre", "setor": "tecnologia", "data": "2000", "aprox": true, "tipo": "entrada",
+      "rotulo": "Chegada do marketplace latino-americano",
+      "resumo": "O Mercado Livre foi fundado na Argentina em agosto de 1999. As fontes divergem sobre quando chegou ao Brasil: dois meses depois da fundação (Exame), 2000, 2001 ou 2002, esta última após a compra do iBazar (Genial).",
+      "motivo": "Não localizei declaração da empresa sobre o motivo da entrada.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Listada na Nasdaq (MELI).",
+      "fontes": [
+        { "titulo": "Exame: em nova fase, Mercado Livre vai emprestar dinheiro", "url": "https://exame.com/tecnologia/em-nova-fase-mercado-livre-vai-emprestar-dinheiro/", "tipo": "imprensa" },
+        { "titulo": "Genial Investimentos: início de cobertura do Mercado Livre", "url": "https://analisa.genialinvestimentos.com.br/setores/tecnologia/mercado-livre-meli34-inicio-de-cobertura-completo-como-voce-nunca-viu/", "tipo": "imprensa" },
+        { "titulo": "InvestNews: MELI34", "url": "https://investnews.com.br/cotacao/meli34-mercadolibre-inc", "tipo": "imprensa" }
+      ],
+      "fato": "a-conferir"
+    },
+    {
+      "id": "zara", "empresa": "Zara (Inditex)", "setor": "varejo", "data": "1999-10", "tipo": "entrada",
+      "rotulo": "Chegada da varejista espanhola de moda",
+      "resumo": "A primeira loja da Zara no Brasil abriu em outubro de 1999 no Morumbi Shopping, em São Paulo, e outras duas vieram algumas semanas depois. A filial Zara Brasil foi constituída em fevereiro de 1999.",
+      "motivo": "Não localizei declaração da empresa sobre o motivo da entrada.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Grupo Inditex listado na bolsa de Madri (ITX).",
+      "fontes": [
+        { "titulo": "Universidad Nebrija: estudo de caso Inditex no Brasil", "url": "https://alumni.nebrija.com/catedras/nebrija-santander-internacionalizacion-empresas/pdf/caso-brasil-inditex.pdf", "tipo": "academico" },
+        { "titulo": "Meio & Mensagem: Zara quer lojas mais sustentáveis", "url": "https://www.meioemensagem.com.br/marketing/zara-quer-lojas-mais-sustentaveis0", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "mesbla-mappin", "empresa": "Mesbla e Mappin", "setor": "varejo", "data": "1999-07", "tipo": "saida",
+      "rotulo": "Fim de duas redes tradicionais de lojas de departamentos",
+      "resumo": "O Mappin encerrou as atividades em 29/07/1999, com dívida estimada em R$ 1,12 a 1,2 bilhão. A Mesbla, em concordata desde 1995, quebrou em 1999 (setembro, segundo a Gazeta SP). Ambas estavam sob o comando do empresário Ricardo Mansur.",
+      "motivo": "A Fenacon aponta que a expansão de estoques não acompanhou o Plano Real e virou dívida bilionária; o jornal Estado de Minas cita a abertura econômica, que ampliou a concorrência com redes estrangeiras e novos formatos como shoppings. São leituras da imprensa, não declarações das empresas.",
+      "motivoTipo": "interpretacao",
+      "internacional": null,
+      "acoes": "Sem série consultada.",
+      "fontes": [
+        { "titulo": "Gazeta do Povo: Mappin, Mesbla, Arapuã, Saraiva e a falência no varejo", "url": "https://www.gazetadopovo.com.br/economia/mappin-mesbla-arapua-saraiva-varejo-falencia/", "tipo": "imprensa" },
+        { "titulo": "Fenacon: empresas que passaram por crises e não resistiram", "url": "https://fenacon.org.br/noticias/relembre-empresas-que-passaram-por-crises-como-a-da-americanas-e-nao-resistiram/", "tipo": "imprensa" },
+        { "titulo": "Central do Varejo: Mappin ressurge após falência em 1999", "url": "https://centraldovarejo.com.br/mappin-ressurge-apos-falencia-em-1999-e-contratempos-durante-a-pandemia", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "manchete", "empresa": "Rede Manchete", "setor": "midia", "data": "1999-05", "tipo": "saida",
+      "rotulo": "Fim da emissora de TV",
+      "resumo": "A Rede Manchete saiu do ar em 10/05/1999. As concessões do Grupo Bloch passaram a Amilcare Dallevo Júnior e Marcelo de Carvalho (TeleTV), e a RedeTV! foi ao ar em 15/11/1999. Em 2009 o STJ decidiu que a RedeTV! não é sucessora da Manchete e está livre das dívidas trabalhistas, embora haja disputas em outras instâncias.",
+      "motivo": "O jornal DGABC registrou na época dívidas de cerca de US$ 500 milhões com o governo; a PGFN estimou o passivo total em cerca de R$ 1,3 bilhão, em boa parte trabalhista. Não localizei declaração da empresa sobre os motivos.",
+      "motivoTipo": "interpretacao",
+      "internacional": null,
+      "acoes": "Sem ações negociadas em bolsa, até onde consultei.",
+      "fontes": [
+        { "titulo": "Wikipédia (inglês): Rede Manchete", "url": "https://en.wikipedia.org/wiki/Rede_Manchete", "tipo": "imprensa" },
+        { "titulo": "DGABC: TeleTV compra a Rede Manchete por US$ 60,8 milhões", "url": "https://www.dgabc.com.br/Noticia/404547/teletv-compra-rede-manchete-por-uss-608-milhoes", "tipo": "imprensa" },
+        { "titulo": "Diário do Pará: TV Manchete deixou legado artístico e dívida bilionária", "url": "https://diariodopara.com.br/entretenimento/tdb/especial-tv-manchete-deixou-legado-artistico-e-divida-bilionaria/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "banespa", "empresa": "Santander (compra do Banespa)", "setor": "financeiro", "data": "2000-11", "tipo": "entrada",
+      "rotulo": "Banco espanhol compra o banco estadual paulista",
+      "resumo": "Em 20/11/2000 o Santander venceu o leilão do Banespa por cerca de R$ 7,05 bilhões, em sete minutos de pregão, a maior privatização da história do país até então. O Itaú decidiu não participar. Sindicatos conseguiram liminares que adiaram o leilão várias vezes.",
+      "motivo": "Não localizei declaração oficial sobre o motivo da venda nas fontes consultadas. Sindicatos bancários criticaram a venda como privatização neoliberal; esse é o ponto de vista de uma parte interessada.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Santander Brasil listado na B3 (SANB11).",
+      "fontes": [
+        { "titulo": "IstoÉ Dinheiro: sete minutos para sete bilhões (2000)", "url": "https://istoedinheiro.com.br/sete-minutos-para-sete-bilhoes", "tipo": "imprensa" },
+        { "titulo": "Wikipédia (inglês): Banco Banespa", "url": "https://en.wikipedia.org/wiki/Banco_Banespa", "tipo": "imprensa" },
+        { "titulo": "Gazeta SP: Banespa, a trajetória de um dos maiores bancos paulistas", "url": "https://www.gazetasp.com.br/economia/banespa-a-trajetoria-de-um-dos-maiores-bancos-da-historia-paulista/1171194/", "tipo": "imprensa" },
+        { "titulo": "CUT: bancários lembram 17 anos da privatização do Banespa (leitura sindical)", "url": "https://www.cut.org.br/noticias/bancarios-lembram-os-17-anos-da-privatizacao-do-banespa-no-governo-entreguista-d-e00c/", "tipo": "parte" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "gol", "empresa": "Gol", "setor": "aviacao", "data": "2001-01", "tipo": "entrada",
+      "rotulo": "Chegada da companhia aérea de baixo custo",
+      "resumo": "O primeiro voo da Gol foi em 15/01/2001, às 6h56, de Brasília a Congonhas, num Boeing 737-700. A meta do primeiro ano era 10 aeronaves, 8% do mercado e 2 milhões de passageiros, e a empresa superou o objetivo.",
+      "motivo": "A empresa se apresenta como pioneira no modelo de baixo custo no país, com foco em custos menores e em popularizar o transporte aéreo.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (GOLL4).",
+      "fontes": [
+        { "titulo": "Mercado & Eventos: Gol completa 25 anos", "url": "https://www.mercadoeeventos.com.br/noticias/aviacao/gol-completa-25-anos-e-projeta-nova-fase-de-crescimento-com-foco-internacional/", "tipo": "imprensa" },
+        { "titulo": "SBT News: Constantino Jr. fundou a primeira aérea low cost", "url": "https://sbtnews.sbt.com.br/noticia/economia/constantino-jr-fundou-primeira-aerea-brasileira-low-cost", "tipo": "imprensa" },
+        { "titulo": "Diário do Turismo: Gol, 16 anos", "url": "https://diariodoturismo.com.br/gol-16-anos/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "google", "empresa": "Google", "setor": "tecnologia", "data": "2005-07", "tipo": "entrada",
+      "rotulo": "Google chega ao Brasil comprando a Akwan",
+      "resumo": "O Google chegou oficialmente ao Brasil em julho de 2005, ao comprar a Akwan Information Technologies, startup de Belo Horizonte ligada à UFMG. O escritório de negócios em São Paulo foi aberto meses depois (novembro de 2005, segundo o Canaltech).",
+      "motivo": "Não localizei declaração específica sobre o motivo da entrada.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Matriz listada na Nasdaq (GOOGL).",
+      "fontes": [
+        { "titulo": "Canaltech: Google Brasil comemora 18 anos", "url": "https://canaltech.com.br/apps/google-brasil-comemora-18-anos-relembre-a-historia-da-empresa-no-pais-256774/", "tipo": "imprensa" },
+        { "titulo": "Google Brasil: 15 anos de Brasil", "url": "https://blog.google/intl/pt-br/produtos/explore-e-encontre-respostas/15-anos-de-brasil-uma-historia-de/", "tipo": "empresa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "varig", "empresa": "Varig", "setor": "aviacao", "data": "2005-06", "tipo": "saida",
+      "rotulo": "Recuperação judicial e fim da companhia histórica",
+      "resumo": "A Varig, a Rio Sul e a Nordeste pediram recuperação judicial em 17/06/2005, a primeira de grande porte sob a nova lei, com dívida em torno de R$ 5,7 bilhões. Em 2006 a empresa foi dividida: a nova Varig (VRG) ficou com os ativos operacionais, e a antiga com as dívidas. A VRG foi vendida à Gol por US$ 320 milhões em 2007, e a Varig antiga acabou em falência.",
+      "motivo": "Ao pedir a recuperação, a empresa alegou dificuldades financeiras.",
+      "motivoTipo": "declarado",
+      "internacional": {
+        "texto": "Companhias tradicionais de outros países também quebraram em 2001: a Swissair suspendeu todos os voos em 2/10/2001 e a belga Sabena foi à falência em novembro, em meio a problemas de caixa e ao efeito do 11 de setembro. A responsabilidade ainda é disputada entre Suíça e Bélgica.",
+        "fontes": [
+          { "titulo": "Swissinfo: investigação belga culpa a Swissair pelo colapso da Sabena", "url": "https://www.swissinfo.ch/eng/belgian-probe-blames-swissair-for-sabena-collapse/3139694", "tipo": "imprensa" },
+          { "titulo": "Accountancy Age: companhia aérea belga pede falência (2001)", "url": "https://www.accountancyage.com/2001/11/07/belgian-airline-files-for-bankruptcy/", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Havia ações em bolsa; histórico a conferir.",
+      "fontes": [
+        { "titulo": "Conjur: volta para cima (recuperação judicial da Varig)", "url": "https://www.conjur.com.br/?p=536727", "tipo": "imprensa" },
+        { "titulo": "BP Money: venda da Varig e sumiço da marca", "url": "https://bpmoney.com.br/?p=335785", "tipo": "imprensa" },
+        { "titulo": "Times Brasil: o caminho da Varig até a falência", "url": "https://timesbrasil.com.br/brasil/o-caminho-da-varig-ate-a-falencia-quem-vai-pagar-a-divida/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "jbs", "empresa": "JBS", "setor": "alimentos", "data": "2007-03", "tipo": "mudanca",
+      "rotulo": "Abertura de capital e expansão internacional",
+      "resumo": "A JBS abriu capital em março de 2007, com oferta de R$ 1,6 bilhão no Novo Mercado. Depois comprou a americana Swift (2007) e ficou com 64% da Pilgrim's Pride (plano aprovado em dezembro de 2009, US$ 800 milhões). O BNDES injetou R$ 5,6 bilhões no conjunto das compras, segundo o Money Times. Uma auditoria do TCU de 2017 apontou suposto favorecimento do BNDES à JBS; a JBS e o banco negaram irregularidades.",
+      "motivo": "Não localizei declaração da empresa sobre o motivo nas fontes consultadas.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (JBSS3).",
+      "fontes": [
+        { "titulo": "Senado: depoimento à CPMI da JBS (2017)", "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/85ee1ee4-56f2-42a5-a642-247ad958d783", "tipo": "oficial" },
+        { "titulo": "Food Processing: JBS e Pilgrim's Pride (2009)", "url": "https://www.foodprocessing.com/industrynews/2009/178/", "tipo": "imprensa" },
+        { "titulo": "Metrópoles: relatório do TCU aponta favorecimento do BNDES à JBS", "url": "https://www.metropoles.com/brasil/relatorio-do-tcu-aponta-favorecimento-do-bndes-a-jbs", "tipo": "imprensa" },
+        { "titulo": "Money Times: BNDES avança na venda de ações da JBS", "url": "https://www.moneytimes.com.br/bndes-avanca-na-venda-de-r-8-bilhoes-de-acoes-da-jbs", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "itau-unibanco", "empresa": "Itaú Unibanco", "setor": "financeiro", "data": "2008-11", "tipo": "mudanca",
+      "rotulo": "Fusão de Itaú e Unibanco",
+      "resumo": "Itaú e Unibanco anunciaram a fusão em 3/11/2008, criando o maior grupo financeiro privado do Hemisfério Sul, com R$ 575 bilhões em ativos. As negociações duraram 15 meses sob sigilo, ou seja, começaram antes da crise global. O controle ficou compartilhado entre a Itaúsa e os controladores do Unibanco.",
+      "motivo": "Não localizei declaração dos bancos sobre o motivo nas fontes consultadas.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (ITUB4).",
+      "fontes": [
+        { "titulo": "Congresso em Foco: Itaú e Unibanco se fundem e criam gigante no hemisfério", "url": "https://www.congressoemfoco.com.br/noticia/89998/itau-e-unibanco-se-fundem-e-criam-gigante-no-hemisferio", "tipo": "imprensa" },
+        { "titulo": "Conjur: Itaú e Unibanco", "url": "https://www.conjur.com.br/?p=545866", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "azul", "empresa": "Azul", "setor": "aviacao", "data": "2008-12", "tipo": "entrada",
+      "rotulo": "Nova companhia aérea",
+      "resumo": "David Neeleman, fundador da JetBlue, da WestJet e da Morris Air, anunciou a Azul em 27/03/2008. O primeiro voo foi em 15/12/2008, com jatos Embraer E-Jets.",
+      "motivo": "Não localizei declaração específica do fundador sobre o motivo nas fontes consultadas.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (AZUL4).",
+      "fontes": [
+        { "titulo": "Wikipédia (inglês): Azul Brazilian Airlines", "url": "https://en.wikipedia.org/wiki/Azul_Brazilian_Airlines", "tipo": "imprensa" },
+        { "titulo": "InfoMoney: a jornada de David Neeleman", "url": "https://www.infomoney.com.br/?p=1574213", "tipo": "imprensa" },
+        { "titulo": "Suno: Azul, a companhia que superou gigantes", "url": "https://www.suno.com.br/?p=228555", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "brf", "empresa": "BRF (Sadia + Perdigão)", "setor": "alimentos", "data": "2009-05", "tipo": "mudanca",
+      "rotulo": "Fusão que criou a BRF",
+      "resumo": "A BRF (Brasil Foods) foi criada em 2009 pela combinação de Perdigão e Sadia. A Sadia havia tido prejuízo de quase R$ 3 bilhões em 2008 com derivativos cambiais. A Perdigão transferiu cerca de R$ 3,5 bilhões para a Sadia pagar essas dívidas. O Cade analisou o caso por anos e, em 2011, a BRF aceitou vender dez fábricas como condição.",
+      "motivo": "A imprensa descreve a fusão como forma de resgatar a Sadia, que perdeu com derivativos na crise global. As empresas defenderam a fusão em nota conjunta.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (BRFS3).",
+      "fontes": [
+        { "titulo": "Conjur: Perdigão e Sadia continuarão separadas até o Cade aprovar a fusão", "url": "https://www.conjur.com.br/2009-mai-19/perdigao-sadia-continuarao-separadas-cade-aprove-fusao//?print=1", "tipo": "imprensa" },
+        { "titulo": "Exame: Perdigão vai repassar R$ 3,5 bi para sanear a Sadia", "url": "https://exame.com/negocios/perdigao-vai-repassar-r-3-5-bi-sanear-sadia-495692", "tipo": "imprensa" },
+        { "titulo": "Baguete: Cade exige e BRF põe dez fábricas à venda", "url": "https://www.baguete.com.br/noticias/cade-exige-e-brf-poe-dez-fabricas-a-venda", "tipo": "imprensa" },
+        { "titulo": "Migalhas: Sadia e Perdigão defendem fusão", "url": "https://www.migalhas.com.br/quentes/91591/sadia-e-perdigao-defendem-fusao-das-empresas-e-criacao-da-brf", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "raizen", "empresa": "Raízen", "setor": "energia", "data": "2011-06", "tipo": "entrada",
+      "rotulo": "Joint venture entre Shell e Cosan",
+      "resumo": "Shell e Cosan assinaram um memorando em fevereiro de 2010 e o contrato definitivo em agosto de 2010. A operação fechou em 1º/06/2011, juntando açúcar, etanol, cogeração e distribuição de combustíveis da Cosan com ativos de distribuição da Shell no Brasil. O Cade aprovou sem restrições, em 2012.",
+      "motivo": "As empresas descreveram a integração de produção de etanol e açúcar com distribuição de combustíveis nos documentos à SEC.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (RAIZ4), a partir de 2021.",
+      "fontes": [
+        { "titulo": "Cosan na SEC: formulário 6-K (2011)", "url": "https://www.sec.gov/Archives/edgar/data/0001402902/000095010311002464/dp22998_6k.htm", "tipo": "oficial" },
+        { "titulo": "Cosan na SEC: formulário 20-F (2011)", "url": "https://www.sec.gov/Archives/edgar/data/0001402902/000095010311004101/dp26408_20f.htm", "tipo": "oficial" },
+        { "titulo": "NovaCana: Cade aprova Cosan e Shell (Raízen)", "url": "https://www.novacana.com/noticias/cade-aprova-cosan-shell-raizen-051212", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "netflix", "empresa": "Netflix", "setor": "midia", "data": "2011-09", "tipo": "entrada",
+      "rotulo": "Streaming chega ao Brasil",
+      "resumo": "A Netflix chegou ao Brasil em 5/09/2011, por R$ 14,99 ao mês, só com locação virtual (sem DVD pelo correio). Foi o começo de um lançamento em dezenas de países da América Latina e do Caribe.",
+      "motivo": "Não localizei declaração específica sobre o motivo da entrada nas fontes consultadas.",
+      "motivoTipo": "indisponivel",
+      "internacional": {
+        "texto": "O lançamento fez parte de uma expansão anunciada em julho de 2011 para 43 países da América Latina e do Caribe, segundo a imprensa (o número varia entre as fontes).",
+        "fontes": [
+          { "titulo": "Meio & Mensagem: Netflix formaliza a expansão para a América Latina", "url": "https://www.meioemensagem.com.br/midia/netflix_formaliza_a_expansao_para_al", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Listada na Nasdaq (NFLX).",
+      "fontes": [
+        { "titulo": "Meio & Mensagem: Netflix lança serviço no Brasil sem equipe local", "url": "https://www.meioemensagem.com.br/midia/netflix-lanca-servico-no-brasil-sem-equipe-local", "tipo": "imprensa" },
+        { "titulo": "Baguete: Netflix estreia no BR por R$ 15/mês", "url": "https://www.baguete.com.br/noticias/netflix-estreia-no-br-por-r-15mes", "tipo": "imprensa" },
+        { "titulo": "TecMundo: Netflix confirma vinda ao Brasil", "url": "https://www.tecmundo.com.br/minha-serie/11276-e-oficial-netflix-confirma-vinda-ao-brasil-neste-ano.htm", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "foxconn", "empresa": "Foxconn", "setor": "industria", "data": "2011-12", "tipo": "entrada",
+      "rotulo": "Montagem local de iPhones e iPads",
+      "resumo": "A Foxconn começou a montar iPhones em Jundiaí (SP) no fim de 2011 e iPads em maio de 2012, com incentivos fiscais federais. A empresa prometeu R$ 1 bilhão e até 100 mil empregos, mas o total de empregados no Brasil nunca passou de 10 mil (cerca de 4 mil em Jundiaí), segundo a IstoÉ Dinheiro. Reportagens de 2017 indicaram o fim da montagem de produtos Apple no país.",
+      "motivo": "A imprensa liga a decisão a incentivos fiscais; a lei de incentivos para tablets foi assinada pela presidente Dilma Rousseff.",
+      "motivoTipo": "interpretacao",
+      "internacional": null,
+      "acoes": "Listada em Taiwan (2317).",
+      "fontes": [
+        { "titulo": "Tecnoblog: Foxconn vai fabricar iPhone e iPad no Brasil", "url": "https://tecnoblog.net/176508/brasil-foxconn-fabrica-iphone-ipad/", "tipo": "imprensa" },
+        { "titulo": "IstoÉ Dinheiro: Foxconn diz adeus ao Brasil", "url": "https://istoedinheiro.com.br/foxconn-diz-adeus-ao-brasil", "tipo": "imprensa" },
+        { "titulo": "Yahoo/Reuters: investimento do iPhone no Brasil fica aquém das promessas", "url": "https://ca.news.yahoo.com/brazils-iphone-investment-falls-short-promises-jobs-lower-083928008--finance.html", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "hyundai", "empresa": "Hyundai", "setor": "automotivo", "data": "2012-09", "tipo": "entrada",
+      "rotulo": "Fábrica em Piracicaba (SP)",
+      "resumo": "A fábrica da Hyundai em Piracicaba começou a operar em setembro de 2012 com o HB20, primeiro modelo feito para o mercado brasileiro. A cerimônia de inauguração foi em 9/11/2012. O investimento citado foi de US$ 600 milhões.",
+      "motivo": "Não localizei, nas fontes consultadas, declaração da empresa ligando a decisão a algum programa do governo, como o Inovar-Auto.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Matriz listada na Coreia do Sul.",
+      "fontes": [
+        { "titulo": "Automotive World: Hyundai inaugura fábrica no Brasil e o HB20 supera metas", "url": "https://www.automotiveworld.com/articles/hyundai-launches-new-brazilian-plant-as-demand-for-hb20-beats-targets/", "tipo": "imprensa" },
+        { "titulo": "Compre Car: Hyundai celebra cinco anos da fábrica em Piracicaba", "url": "https://www.comprecar.com.br/revista/hyundai-celebra-cinco-anos-da-inauguracao-de-sua-fabrica-em-piracicaba", "tipo": "empresa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "amazon", "empresa": "Amazon", "setor": "varejo", "data": "2012-12", "tipo": "entrada",
+      "rotulo": "Amazon.com.br no ar",
+      "resumo": "A Amazon lançou a loja brasileira em dezembro de 2012, com mais de 1,4 milhão de livros Kindle com preços em reais. A venda de livros físicos veio só em 2014.",
+      "motivo": "O comunicado da empresa descreve a oferta de livros digitais e aplicativos de leitura gratuitos em português para o público brasileiro.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Listada na Nasdaq (AMZN).",
+      "fontes": [
+        { "titulo": "Amazon (press release): lançamento da loja Kindle no Brasil, www.amazon.com.br", "url": "https://press.aboutamazon.com/2012/12/amazon-launches-brazil-kindle-store-www-amazon-com-br-and-free-portuguese-kindle-reading-apps-for-android-phones-and-tablets-ipads-and-iphones-r-299-kindle-available-in-the-coming-weeks", "tipo": "empresa" },
+        { "titulo": "Baguete: Amazon inicia venda de livros físicos", "url": "https://www.baguete.com.br/noticias/amazon-inicia-venda-de-livros-fisicos", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "amil", "empresa": "Amil (UnitedHealth)", "setor": "saude", "data": "2012-10", "tipo": "entrada",
+      "rotulo": "Americana compra operadora de saúde",
+      "resumo": "A UnitedHealth anunciou em 8/10/2012 (acordo assinado em 5/10) a compra de até 90% da Amil por cerca de US$ 4,9 bilhões, a R$ 30,75 por ação. A Euromoney classificou como a maior aquisição transfronteiriça de um ativo brasileiro. O fundador, Edson Bueno, continuaria na presidência.",
+      "motivo": "A compradora citou o potencial de crescimento da saúde suplementar no Brasil nos documentos à SEC.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Compradora listada na NYSE (UNH).",
+      "fontes": [
+        { "titulo": "UnitedHealth na SEC: formulário 8-K (2012)", "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176612000032/form8-k.htm", "tipo": "oficial" },
+        { "titulo": "Bloomberg: UnitedHealth vai comprar a Amil por US$ 4,9 bilhões", "url": "https://www.bloomberg.com/news/articles/2012-10-08/unitedhealth-will-buy-brazilian-insurer-amil-for-4-9-billion", "tipo": "imprensa" },
+        { "titulo": "Euromoney: negócios do ano 2012, UnitedHealth", "url": "https://www.euromoney.com/article/27bjsstsqxhkmh0tqp1in/awards/deals-of-the-year-2012-unitedhealth-group", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "nubank", "empresa": "Nubank", "setor": "financeiro", "data": "2013", "aprox": true, "tipo": "entrada",
+      "rotulo": "Banco digital nasce no Brasil",
+      "resumo": "O Nubank foi fundado em 2013 (6 de maio, segundo o Tecnoblog; outra fonte fala em fim de 2013), por David Vélez, Cristina Junqueira e Edward Wible. O cartão roxo, sem anuidade e gerenciado por aplicativo, foi lançado em 2014. A empresa abriu capital na NYSE em dezembro de 2021.",
+      "motivo": "Não localizei declaração específica dos fundadores sobre o motivo nas fontes consultadas.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Listada na NYSE (NU); BDR na B3 (ROXO34).",
+      "fontes": [
+        { "titulo": "Tecnoblog: sobre o Nubank", "url": "https://tecnoblog.net/sobre/nubank/", "tipo": "imprensa" },
+        { "titulo": "InfoMoney: história do Nubank", "url": "https://www.infomoney.com.br/?p=1320704", "tipo": "imprensa" },
+        { "titulo": "Nubank: 13 anos como uma das instituições financeiras mais influentes do mundo", "url": "https://international.nubank.com.br/pt-br/companhia/nubank-chega-aos-13-anos-como-uma-das-instituicoes-financeiras-mais-influentes-do-mundo/", "tipo": "empresa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "ogx", "empresa": "OGX", "setor": "energia", "data": "2013-10", "tipo": "saida",
+      "rotulo": "Recuperação judicial da petroleira de Eike Batista",
+      "resumo": "A OGX pediu recuperação judicial em 30/10/2013, na 4ª Vara Empresarial do Rio, com passivo declarado de R$ 11,2 bilhões, o maior processo da América Latina até então. A irmã OSX pediu duas semanas depois. As empresas encerraram o processo em 2017.",
+      "motivo": "A Exame descreveu o pedido como o último recurso antes da falência. Não localizei, nas fontes consultadas, a justificativa técnica declarada pela empresa.",
+      "motivoTipo": "interpretacao",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (OGXP3).",
+      "fontes": [
+        { "titulo": "Exame: OGX entra com pedido de recuperação judicial", "url": "https://exame.com/negocios/ogx-entra-com-pedido-de-recuperacao-judicial-diz-fonte-2", "tipo": "imprensa" },
+        { "titulo": "Capital Aberto: quatro desfechos", "url": "https://capitalaberto.com.br/empresas/2013/12/quatro-desfechos", "tipo": "imprensa" },
+        { "titulo": "Forbes Brasil: OGX e OGPar encerram a recuperação judicial (2017)", "url": "https://forbes.com.br/negocios/2017/08/ogx-e-ogpar-anunciam-encerramento-de-recuperacao-judicial/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "kroton", "empresa": "Kroton + Anhanguera", "setor": "educacao", "data": "2014-05", "tipo": "mudanca",
+      "rotulo": "Fusão no ensino superior privado",
+      "resumo": "O Cade aprovou em 14/05/2014, com restrições, a fusão da Kroton com a Anhanguera, que criou a maior empresa de ensino privado do país e uma das maiores do mundo. A principal condição foi a venda da Uniasselvi. Em 2017, o Cade barrou a compra da Estácio pela Kroton.",
+      "motivo": "As empresas citaram ganhos de escala. O Cade apontou concentração alta em municípios como Jundiaí, Cuiabá e Rondonópolis. Um ex-presidente do Cade apresentou dados sugerindo mensalidades maiores e qualidade menor depois da fusão; é uma afirmação de uma parte, não um achado independente.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (hoje COGN3).",
+      "fontes": [
+        { "titulo": "Cade: remédios impostos à fusão Kroton e Anhanguera", "url": "https://www.gov.br/cade/en/matters/news/cade-imposes-remedies-to-kroton-and-anhanguera-merger", "tipo": "oficial" },
+        { "titulo": "Exame: Cade aprova fusão entre Kroton e Anhanguera com restrições", "url": "https://exame.com/negocios/cade-aprova-fusao-entre-kroton-e-anhanguera-com-restricoes", "tipo": "imprensa" },
+        { "titulo": "Forbes Brasil: Cade e a fusão Kroton e Estácio (2017)", "url": "https://forbes.com.br/negocios/2017/06/cade-propoe-aprovacao-de-fusao-kroton-estacio-com-condicoes/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "uber", "empresa": "Uber", "setor": "tecnologia", "data": "2014-05", "aprox": true, "tipo": "entrada",
+      "rotulo": "Transporte por aplicativo chega ao Brasil",
+      "resumo": "A Uber começou a operar no Rio de Janeiro em 2014, às vésperas da Copa do Mundo. As fontes divergem entre maio (empresa) e junho (lançamento oficial). No primeiro mês, o aplicativo tinha 500 motoristas e 25 mil usuários, segundo a Mobile Time. São Paulo veio em junho.",
+      "motivo": "Não localizei declaração específica sobre o motivo da escolha do Brasil nas fontes consultadas.",
+      "motivoTipo": "indisponivel",
+      "internacional": {
+        "texto": "A Didi Chuxing comprou a operação da Uber na China em 2016.",
+        "fontes": [
+          { "titulo": "IstoÉ Dinheiro: Didi Chuxing confirma compra da brasileira 99", "url": "https://istoedinheiro.com.br/didi-chuxing-confirma-compra-do-controle-da-brasileira-99", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Listada na NYSE (UBER).",
+      "fontes": [
+        { "titulo": "Uber: fatos e dados sobre a Uber no Brasil", "url": "https://www.uber.com/pt-BR/newsroom/fatos-e-dados-sobre-uber", "tipo": "empresa" },
+        { "titulo": "Mobile Time: Uber no Brasil", "url": "https://www.mobiletime.com.br/?p=791688", "tipo": "imprensa" },
+        { "titulo": "Olhar Direto: aplicativo Uber chegará a São Paulo em breve (2014)", "url": "https://olhardireto.com.br/noticias/aplicativo-uber-chegara-a-sao-paulo-em-breve-diz-executivo", "tipo": "imprensa" }
+      ],
+      "fato": "a-conferir"
+    },
+    {
+      "id": "oas", "empresa": "OAS", "setor": "construcao", "data": "2015-03", "tipo": "saida",
+      "rotulo": "Recuperação judicial da empreiteira",
+      "resumo": "O Grupo OAS pediu recuperação judicial em 31/03/2015 para nove empresas, com dívida de R$ 7,9 a 8 bilhões. Tudo começou em novembro de 2014, quando o presidente da empresa, Léo Pinheiro, foi preso na Lava Jato. Os credores aprovaram a reestruturação e o processo foi encerrado em março de 2020.",
+      "motivo": "A empresa citou que as captações de recursos ficaram comprometidas depois dos desdobramentos da Lava Jato.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Sem ações próprias negociadas; atuava via subsidiárias.",
+      "fontes": [
+        { "titulo": "Baguete: OAS pede recuperação judicial", "url": "https://www.baguete.com.br/noticias/oas-pede-recuperacao-judicial", "tipo": "imprensa" },
+        { "titulo": "Jornal do Brasil: alvo da Lava Jato, Grupo OAS pede recuperação judicial", "url": "https://www.jb.com.br/pais/noticias/2015/03/31/amp/alvo-da-lava-jato-grupo-oas-pede-recuperacao-judicial.html", "tipo": "imprensa" },
+        { "titulo": "Gazeta do Povo: credores aprovam plano de recuperação da OAS", "url": "https://www.gazetadopovo.com.br/vida-publica/credores-aprovam-plano-de-recuperacao-judicial-da-oas-2ef7wl9mvoaua1tezvymxmw2e", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "hsbc", "empresa": "HSBC Brasil", "setor": "financeiro", "data": "2015-08", "tipo": "saida",
+      "rotulo": "HSBC vende operação ao Bradesco",
+      "resumo": "O HSBC anunciou em 3/08/2015 a venda de toda a operação no Brasil (varejo, seguros e gestão de ativos) ao Bradesco por cerca de US$ 5,2 bilhões, ou R$ 17,6 bilhões. O HSBC manteve presença modesta voltada a grandes empresas. O órgão de concorrência aprovou o negócio em 8/06/2016.",
+      "motivo": "A venda fez parte de um plano global de reestruturação anunciado pelo HSBC em junho de 2015, que previa cortar cerca de 50 mil empregos e vender as operações do Brasil e da Turquia.",
+      "motivoTipo": "declarado",
+      "internacional": {
+        "texto": "O mesmo plano global do HSBC incluía a venda das operações na Turquia.",
+        "fontes": [
+          { "titulo": "South China Morning Post: HSBC vende a unidade brasileira por US$ 5,2 bilhões", "url": "https://amp.scmp.com/business/companies/article/1846072/hsbc-sell-brazil-unit-us52-billion-1h-profits-climb-10-cent", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Matriz listada em Londres e Hong Kong (HSBA).",
+      "fontes": [
+        { "titulo": "Baguete: Bradesco paga US$ 5,2 bi pelo HSBC no Brasil", "url": "https://www.baguete.com.br/noticias/bradesco-us-52-bi-por-hsbc-no-brasil", "tipo": "imprensa" },
+        { "titulo": "HSBC (RNS, 9/06/2016): venda do negócio no Brasil recebe aprovação regulatória", "url": "https://www.lse.co.uk/rns/HSBA/sale-of-brazil-business-receives-reg-approval-14pjoqibtmzq0yu.html", "tipo": "empresa" },
+        { "titulo": "South China Morning Post: HSBC vende a unidade brasileira", "url": "https://amp.scmp.com/business/companies/article/1846072/hsbc-sell-brazil-unit-us52-billion-1h-profits-climb-10-cent", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "samarco", "empresa": "Samarco", "setor": "mineracao", "data": "2015-11", "tipo": "saida",
+      "rotulo": "Rompimento da barragem de Fundão",
+      "resumo": "A barragem de Fundão rompeu em 5/11/2015, no distrito de Bento Rodrigues, em Mariana (MG), deixando 19 mortos e poluindo o rio Doce até o litoral do Espírito Santo. A operação da Samarco ficou parada e só começou a ser retomada em dezembro de 2020, de forma gradual. Cinco anos depois, só 5 das 235 casas previstas para o reassentamento tinham sido construídas, segundo uma reportagem.",
+      "motivo": "O desastre não foi uma decisão da empresa. A Samarco é controlada por Vale e BHP e responde a processos e a acordos de reparação.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Sem ações próprias; controladoras listadas (Vale VALE3; BHP).",
+      "fontes": [
+        { "titulo": "Poder360: retomada da Samarco em Mariana indigna atingidos", "url": "https://www.poder360.com.br/brasil/retomada-da-samarco-em-mariana-indigna-atingidos-por-desastre-dw/", "tipo": "imprensa" },
+        { "titulo": "Jovem Pan: Samarco retoma atividades cinco anos após o desastre", "url": "https://jovempan.com.br/brasil/samarco-retoma-atividades-em-mariana-cinco-anos-apos-desastre-ambiental/", "tipo": "imprensa" },
+        { "titulo": "InfoMoney: Samarco inicia retomada gradual de operações", "url": "https://www.infomoney.com.br/?p=1568091", "tipo": "imprensa" },
+        { "titulo": "CNN Brasil: mineração volta a operar em Mariana com novo sistema de rejeitos", "url": "https://www.cnnbrasil.com.br/nacional/apos-tragedia-mineracao-volta-a-operar-em-mariana-com-novo-sistema-de-rejeitos/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "oi", "empresa": "Oi", "setor": "telecom", "data": "2016-06", "tipo": "saida",
+      "rotulo": "Maior recuperação judicial do país na época",
+      "resumo": "A Oi entrou com o pedido de recuperação judicial em 20/06/2016, com dívida de cerca de R$ 65,4 bilhões, seis vezes o recorde anterior (a OGX). O pedido foi aceito em 29/06/2016. O plano foi aprovado em fevereiro de 2018 e a recuperação foi encerrada em dezembro de 2022. Em 2023, a Oi pediu uma segunda recuperação, com cerca de R$ 44 bilhões em dívidas.",
+      "motivo": "O pedido veio depois que as negociações com os credores externos, donos de 70% da dívida, não chegaram a consenso sobre a renegociação.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (OIBR3).",
+      "fontes": [
+        { "titulo": "Forbes Brasil: Oi entra com pedido de recuperação judicial de R$ 65 bilhões", "url": "https://forbes.com.br/negocios/2016/06/oi-entra-com-pedido-de-recuperacao-judicial-de-r-65-bilhoes/", "tipo": "imprensa" },
+        { "titulo": "Metrópoles: com dívida de R$ 65,4 bi, Oi entra com pedido de recuperação judicial", "url": "https://www.metropoles.com/brasil/economia-br/com-divida-de-r-654-bi-oi-entra-com-pedido-de-recuperacao-judicial", "tipo": "imprensa" },
+        { "titulo": "Teletime: recuperação judicial da Oi é encerrada (2022)", "url": "https://teletime.com.br/14/12/2022/recuperacao-judicial-da-oi-e-encerrada/", "tipo": "imprensa" },
+        { "titulo": "Olhar Digital: Oi pede segunda recuperação judicial (2023)", "url": "https://olhardigital.com.br/2023/03/02/pro/oi-pede-segunda-recuperacao-judicial-e-declara-quase-r-44-bi-em-dividas/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "b3", "empresa": "B3", "setor": "financeiro", "data": "2017-03", "tipo": "mudanca",
+      "rotulo": "Fusão de BM&FBovespa e Cetip",
+      "resumo": "BM&FBovespa e Cetip foram unificadas em 2017, formando a B3 (Brasil, Bolsa, Balcão). Cada ação preferencial da Cetip foi convertida em 0,93849080 ação ordinária da BM&FBovespa, e o código passou a ser B3SA3. Banco Central, CVM e Cade aprovaram a operação. Antes, em 2008, BM&F e Bovespa já haviam se unido.",
+      "motivo": "Não localizei, nas fontes consultadas, declaração das empresas sobre o motivo da fusão.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (B3SA3).",
+      "fontes": [
+        { "titulo": "Exame: o que muda com a B3, a ex-BM&FBovespa e Cetip", "url": "https://exame.com/invest/mercados/o-que-muda-com-a-b3-a-ex-bmfbovespacetip/", "tipo": "imprensa" },
+        { "titulo": "B3 Relações com Investidores", "url": "https://ri.b3.com.br/en/?p=42", "tipo": "empresa" },
+        { "titulo": "Suno: B3, conheça mais sobre a bolsa brasileira", "url": "https://www.suno.com.br/artigos/b3/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "walmart-venda", "empresa": "Walmart Brasil", "setor": "varejo", "data": "2018-06", "tipo": "saida",
+      "rotulo": "Venda de 80% do Walmart Brasil ao Advent",
+      "resumo": "O fundo Advent comprou 80% da operação brasileira do Walmart em junho de 2018, pagando cerca de R$ 1,6 bilhão segundo a Exame. A rede passou a se chamar Grupo Big. O Carrefour anunciou a compra do Grupo Big em março de 2021 (R$ 7,5 bilhões), concluída em 7/06/2022 com condições do Cade, e a marca Walmart foi abandonada no país.",
+      "motivo": "Não localizei, nas fontes consultadas, declaração da empresa sobre este caso. Nas saídas de 2020 e 2021 em outros países, o Walmart disse estar concentrando esforços em mercados e atividades principais.",
+      "motivoTipo": "indisponivel",
+      "internacional": {
+        "texto": "O Walmart vendeu a Asda (Reino Unido, acordo em outubro de 2020, concluído em fevereiro de 2021), a operação da Argentina (novembro de 2020) e 85% da Seiyu (Japão, acordo em novembro de 2020, concluído em março de 2021, mantendo 15%).",
+        "fontes": [
+          { "titulo": "Walmart na SEC: formulário 10-K do ano fiscal 2021", "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416921000033/wmt-20210131.htm", "tipo": "oficial" },
+          { "titulo": "Walmart na SEC: formulário 10-Q de outubro de 2020", "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416920000076/wmt-20201031.htm", "tipo": "oficial" },
+          { "titulo": "Talk Business: Walmart vende participação majoritária da Seiyu", "url": "https://talkbusiness.net/2020/11/walmart-sells-majority-stake-in-japanese-grocer-seiyu/", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Matriz listada na NYSE (WMT).",
+      "fontes": [
+        { "titulo": "Exame: como a Advent multiplicou o Walmart de R$ 2 bi para R$ 7,5 bi", "url": "https://exame.com/insight/big-negocio-como-a-advent-multiplicou-o-walmart-de-r-2-bi-para-r-75-bi/p", "tipo": "imprensa" },
+        { "titulo": "NeoFeed: a compra do Big pelo Carrefour por R$ 7,5 bilhões", "url": "https://neofeed.com.br/negocios/a-big-compra-do-carrefour-brasil-r-75-bilhoes-pelo-ex-walmart/", "tipo": "imprensa" },
+        { "titulo": "Machado Meyer: Carrefour Brasil compra Grupo Big", "url": "https://www.machadomeyer.com.br/pt/imprensa-ij/carrefour-brasil-compra-grupo-big-por-r-7-5-bilhoes", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "didi-99", "empresa": "99 (Didi)", "setor": "tecnologia", "data": "2018-01", "tipo": "mudanca",
+      "rotulo": "Chinesa Didi compra o aplicativo 99",
+      "resumo": "Em 3/01/2018, a Didi Chuxing confirmou a compra do controle da 99, aplicativo brasileiro de transporte, comprando as fatias de fundos como Riverwood, Monashees, Qualcomm Ventures, Tiger Global e SoftBank. A Didi já havia investido US$ 100 milhões na 99 em janeiro de 2017. A 99 foi apontada como o primeiro unicórnio brasileiro. O valor não foi informado, e a imprensa citou números diferentes (de US$ 300 milhões a US$ 1 bilhão).",
+      "motivo": "O comunicado conjunto não trouxe justificativa detalhada nem valores. A Didi também havia comprado a operação da Uber na China em 2016.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Didi é empresa chinesa; histórico de capital a conferir.",
+      "fontes": [
+        { "titulo": "IstoÉ Dinheiro: Didi Chuxing confirma compra do controle da brasileira 99", "url": "https://istoedinheiro.com.br/didi-chuxing-confirma-compra-do-controle-da-brasileira-99", "tipo": "imprensa" },
+        { "titulo": "Meio & Mensagem: Didi Chuxing compra o aplicativo 99", "url": "https://www.meioemensagem.com.br/ultimas-noticias/didi-chuxing-compra-o-aplicativo-99", "tipo": "imprensa" },
+        { "titulo": "Baguete: Didi Chuxing adquire 99", "url": "https://www.baguete.com.br/noticias/didi-chuxing-adquire-99", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "abril", "empresa": "Grupo Abril", "setor": "midia", "data": "2018-08", "tipo": "saida",
+      "rotulo": "Recuperação judicial da editora",
+      "resumo": "O Grupo Abril, dono da revista Veja, pediu recuperação judicial em 15/08/2018 em São Paulo, com dívida de cerca de R$ 1,6 bilhão. A Veja e outras 15 marcas foram mantidas. A recuperação foi encerrada em fevereiro de 2022, e a Meio & Mensagem lembra que credores ainda podem pedir execução se o plano não for cumprido.",
+      "motivo": "A Exame registrou que os bancos reduziram de forma abrupta o acesso da empresa a capital de giro, o que precipitou o pedido. A Forbes Brasil citou a mesma restrição de capital de giro.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Sem ações negociadas em bolsa, até onde consultei.",
+      "fontes": [
+        { "titulo": "Poder360: com dívida de R$ 1,6 bi, Editora Abril entra em recuperação judicial", "url": "https://www.poder360.com.br/midia/com-divida-de-r-16-bi-editora-abril-entra-em-recuperacao-judicial/", "tipo": "imprensa" },
+        { "titulo": "Exame: Grupo Abril entra com pedido de recuperação judicial", "url": "https://exame.com/negocios/grupo-abril-entra-com-pedido-de-recuperacao-judicial/", "tipo": "imprensa" },
+        { "titulo": "Forbes Brasil: Grupo Abril pede recuperação judicial", "url": "https://forbes.com.br/last/2018/08/grupo-abril-pede-recuperacao-judicial/", "tipo": "imprensa" },
+        { "titulo": "Gazeta SP: recuperação judicial do Grupo Abril chega ao fim", "url": "https://www.gazetasp.com.br/brasil/recuperacao-judicial-do-grupo-abril-chega-ao-fim/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "saraiva-cultura", "empresa": "Saraiva e Livraria Cultura", "setor": "varejo", "data": "2018-11", "tipo": "saida",
+      "rotulo": "Recuperação judicial das grandes livrarias",
+      "resumo": "A Livraria Cultura pediu recuperação judicial no fim de outubro de 2018, e a Saraiva em 23/11/2018, com dívida de cerca de R$ 674 milhões, depois de fechar 20 lojas. A Justiça aceitou o pedido da Saraiva em 26/11. A recuperação não deu certo, e a falência da Saraiva foi decretada depois, a pedido da própria empresa.",
+      "motivo": "A Saraiva declarou que a recuperação era a medida mais adequada diante da crise do mercado editorial e do cenário econômico.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Saraiva teve ações em bolsa (SLED4).",
+      "fontes": [
+        { "titulo": "Suno: Livraria Saraiva entra com pedido de recuperação judicial", "url": "https://www.suno.com.br/noticias/saraiva-recuperacao-judicial/amp/", "tipo": "imprensa" },
+        { "titulo": "Tribuna de Minas: com dívida de R$ 674 milhões, Saraiva pede recuperação judicial", "url": "https://tribunademinas.com.br/noticias/economia/23-11-2018/com-divida-de-r-674-milhoes-saraiva-pede-recuperacao-judicial.html?amp=1", "tipo": "imprensa" },
+        { "titulo": "InvestNews: Justiça de São Paulo decreta falência da Livraria Saraiva", "url": "https://investnews.com.br/economia/justica-de-sao-paulo-decreta-falencia-da-livraria-saraiva/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "avianca", "empresa": "Avianca Brasil", "setor": "aviacao", "data": "2018-12", "tipo": "saida",
+      "rotulo": "Recuperação judicial e fim dos voos",
+      "resumo": "A Avianca Brasil (Oceanair Linhas Aéreas) pediu recuperação judicial em 11/12/2018, declarando-se incapaz de pagar dívidas então estimadas em R$ 494 milhões, valor que depois chegou a cerca de R$ 2,7 bilhões. Em maio de 2019, a Anac suspendeu cautelarmente todas as operações. A empresa depois teve falência decretada. Não se deve confundir com a Avianca Holdings, da Colômbia, que é outra empresa.",
+      "motivo": "A Anac justificou a suspensão pelo receio de que a empresa não tivesse capacidade de operar com segurança. Antes, a companhia havia cancelado voos, fechado bases e devolvido aeronaves.",
+      "motivoTipo": "declarado",
+      "internacional": {
+        "texto": "A Avianca Holdings (Colômbia), outra empresa, pediu proteção do Chapter 11 nos EUA em 10/05/2020, atribuindo o pedido à pandemia, com queda de receita de cerca de 80%. Latam e Aeroméxico fizeram o mesmo nas semanas seguintes. A Avianca Holdings saiu do Chapter 11 em dezembro de 2021.",
+        "fontes": [
+          { "titulo": "Bloomberg: Avianca pede falência com os céus da América Latina fechados", "url": "https://www.bloomberg.com/news/articles/2020-05-10/avianca-seeks-bankruptcy-after-latin-american-skies-closed", "tipo": "imprensa" },
+          { "titulo": "Bloomberg Línea: Avianca sai do Capítulo 11", "url": "https://www.bloomberglinea.com.br/2021/12/02/avianca-sai-do-capitulo-11-apos-levantar-us-17-bi-de-recursos-novos/", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Sem ações negociadas em bolsa no Brasil.",
+      "fontes": [
+        { "titulo": "Conjur: juiz impede Anac de suspender atividades da Avianca (11/12/2018)", "url": "https://www.conjur.com.br/2018-dez-11/juiz-manda-anac-liberar-atividades-avianca//?print=1", "tipo": "imprensa" },
+        { "titulo": "Exame: Anac suspende cautelarmente todas as operações da Avianca Brasil", "url": "https://exame.com/negocios/anac-suspende-cautelarmente-todas-as-operacoes-da-avianca-brasil", "tipo": "imprensa" },
+        { "titulo": "Suno: Justiça decreta falência da Avianca Brasil", "url": "https://www.suno.com.br/noticias/?p=73170", "tipo": "imprensa" },
+        { "titulo": "Idec: direitos de quem comprou passagem da Avianca", "url": "https://idec.org.br/node/27658", "tipo": "parte" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "shopee", "empresa": "Shopee", "setor": "varejo", "data": "2019", "aprox": true, "tipo": "entrada",
+      "rotulo": "Marketplace de Singapura chega ao Brasil",
+      "resumo": "A Shopee, do grupo Sea, começou no Brasil em 2019 com uma operação piloto da equipe de comércio transfronteiriço, com frete grátis, descontos agressivos e menos exigências para lojistas do que as rivais. A data exata de lançamento não foi divulgada oficialmente. A tração veio em 2020, e a empresa levou o modelo ao México e, em 2021, a Chile e Colômbia.",
+      "motivo": "Não localizei declaração específica sobre o motivo da entrada nas fontes consultadas.",
+      "motivoTipo": "indisponivel",
+      "internacional": {
+        "texto": "Em 2021, a Shopee anunciou a expansão para Chile e Colômbia, depois do Brasil e do México.",
+        "fontes": [
+          { "titulo": "Forbes Brasil: Shopee vai ampliar presença na América Latina com Chile e Colômbia", "url": "https://forbes.com.br/forbes-money/2021/06/shopee-vai-ampliar-presenca-na-america-latina-com-operacoes-no-chile-e-colombia/", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Grupo Sea listado na NYSE (SE).",
+      "fontes": [
+        { "titulo": "NeoFeed: em pouco mais de dois anos, a Shopee virou gigante no Brasil", "url": "https://neofeed.com.br/blog/home/em-pouco-mais-de-dois-anos-shopee-virou-gigante-no-brasil", "tipo": "imprensa" },
+        { "titulo": "Rio Times: Shopee amplia a operação no Brasil", "url": "https://www.riotimesonline.com/brazil-news/brazil/south-east-asias-shopee-e-commerce-scales-up-brazil-operations-eyes-latam-potential-sources/", "tipo": "imprensa" }
+      ],
+      "fato": "a-conferir"
+    },
+    {
+      "id": "odebrecht", "empresa": "Odebrecht", "setor": "construcao", "data": "2019-06", "tipo": "saida",
+      "rotulo": "Recuperação judicial do grupo",
+      "resumo": "A Odebrecht entrou com pedido de recuperação judicial em 17/06/2019, com dívidas acima de R$ 98 bilhões, a maior da história do país até então. A Justiça aceitou o pedido no dia seguinte. R$ 51 bilhões estavam sujeitos à reestruturação, e outros R$ 14,5 bilhões ligados a ações da Braskem ficaram de fora.",
+      "motivo": "Os documentos do processo e a imprensa ligam o pedido ao impacto da Lava Jato (perda de contratos, sanções e falta de crédito). Em 2016, a Odebrecht e a Braskem admitiram o pagamento de propinas e firmaram acordo para pagar US$ 3,5 bilhões em multas nos EUA, no Brasil e na Suíça.",
+      "motivoTipo": "interpretacao",
+      "internacional": {
+        "texto": "Segundo o Departamento de Justiça dos EUA, a Odebrecht admitiu cerca de US$ 788 milhões em propinas entre 2001 e 2016 em mais de 100 projetos em 12 países (Angola, Argentina, Brasil, Colômbia, República Dominicana, Equador, Guatemala, México, Moçambique, Panamá, Peru e Venezuela). No Peru, a empresa reconheceu US$ 29 milhões em subornos entre 2005 e 2014.",
+        "fontes": [
+          { "titulo": "Conjur: Odebrecht fecha acordo e pagará US$ 3,5 bi, propinas em 12 países", "url": "https://www.conjur.com.br/2016-dez-21/odebrecht-fecha-acordo-pagara-us-35-bi-propinas-12-paises//?print=1", "tipo": "imprensa" },
+          { "titulo": "Poder360: Odebrecht admitiu nos EUA R$ 3 bi em propinas para obras de 12 países", "url": "https://poder360.com.br/lava-jato/odebrecht-admitiu-nos-eua-r-3-bi-em-propinas-para-obras-de-12-paises/", "tipo": "imprensa" },
+          { "titulo": "MercoPress: Odebrecht bate novo recorde de multa em tribunal dos EUA", "url": "https://en.mercopress.com/2016/12/23/brazil-s-odebrecht-breaks-another-penalty-record-this-time-in-us-court-us-3.5bn", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Holding sem ações na bolsa; controlava a Braskem (BRKM5).",
+      "fontes": [
+        { "titulo": "Poder360: Justiça aceita pedido de recuperação judicial da Odebrecht", "url": "https://www.poder360.com.br/justica/justica-aceita-pedido-de-recuperacao-judicial-da-odebrecht/", "tipo": "imprensa" },
+        { "titulo": "Levy & Salomão: o pedido de recuperação judicial da Odebrecht, informações básicas (jul/2019)", "url": "https://levysalomao.com.br/publications/lsbraziloutlook/the-odebrecht-insolvency-filing-basic-information-as-of-july-17-2019", "tipo": "parte" },
+        { "titulo": "Conjur: Justiça aceita pedido de recuperação judicial da Odebrecht", "url": "https://www.conjur.com.br/2019-jun-19/justica-aceita-pedido-recuperacao-judicial-odebrecht//?print=1", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "boeing-embraer", "empresa": "Boeing + Embraer", "setor": "aviacao", "data": "2020-04", "tipo": "mudanca",
+      "rotulo": "Negócio entre Boeing e Embraer é cancelado",
+      "resumo": "A Boeing rescindiu em abril de 2020 o acordo de cerca de US$ 4,2 bilhões com a Embraer, anunciado em 2018, que criaria uma parceria na aviação comercial. A Embraer abriu arbitragem em 27/04/2020. Em setembro de 2024, as duas fecharam um acordo de US$ 150 milhões e encerraram a arbitragem. O governo brasileiro, em 2018, não exerceu o poder de veto da golden share.",
+      "motivo": "A Boeing alegou que a Embraer não cumpriu as condições necessárias; a Embraer afirmou ter cumprido todas até 24/04/2020 e acusou a Boeing de rescisão indevida.",
+      "motivoTipo": "declarado",
+      "internacional": {
+        "texto": "A Airbus anunciou em outubro de 2017 que assumiria o controle (50,01%) do programa CSeries da canadense Bombardier, o que foi concluído em 1º/07/2018, e o avião passou a se chamar A220.",
+        "fontes": [
+          { "titulo": "Aviation Business News: Airbus e a aquisição do programa C Series", "url": "https://www.aviationbusinessnews.com/mro/c-series-acquisition-airbus", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Boeing (BA, NYSE) e Embraer (EMBR3).",
+      "fontes": [
+        { "titulo": "Janes: rompimento Boeing-Embraer ainda em arbitragem", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/industry/boeing-embraer-breakup-still-in-arbitration", "tipo": "imprensa" },
+        { "titulo": "Military & Aerospace: Embraer leva a Boeing à arbitragem", "url": "https://militaryaerospace.com/commercial-aerospace/article/14231296/boeing-embraer-deal-fails", "tipo": "imprensa" },
+        { "titulo": "SBT News: Embraer e Boeing fecham acordo de US$ 150 milhões e encerram arbitragem", "url": "https://sbtnews.sbt.com.br/noticia/brasil/embraer-e-boeing-fecham-acordo-de-us-150-milhoes-e-encerram-arbitragem", "tipo": "imprensa" },
+        { "titulo": "Poder360: governo Bolsonaro dá aval para acordo entre Boeing e Embraer", "url": "https://poder360.com.br/governo/governo-bolsonaro-da-aval-para-acordo-entre-boeing-e-embraer/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "disney", "empresa": "Disney+", "setor": "midia", "data": "2020-11", "tipo": "entrada",
+      "rotulo": "Streaming da Disney chega à América Latina",
+      "resumo": "O Disney+ estreou em 17/11/2020 no Brasil, Argentina, Chile, Colômbia, Costa Rica, Equador, México, Panamá, Peru e Uruguai. No lançamento, custava R$ 27,90 por mês ou R$ 279,90 por ano. Séries originais como WandaVision passariam a sair ao mesmo tempo nos EUA e na América Latina.",
+      "motivo": "Na coletiva de lançamento, a Disney afirmou que o Brasil era o mercado de maior expectativa da região; o serviço já tinha 73 milhões de assinantes no mundo.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Listada na NYSE (DIS).",
+      "fontes": [
+        { "titulo": "Tecnoblog: Disney+ anuncia lançamento no Brasil em 17 de novembro", "url": "https://tecnoblog.net/noticias/disney-anuncia-lancamento-no-brasil-em-17-de-novembro/", "tipo": "imprensa" },
+        { "titulo": "Disney Brasil: pré-venda da assinatura anual do Disney+", "url": "https://disney.com.br/novidades/disneyplus-pre-venda-da-assinatura-anual-ja-esta-disponivel", "tipo": "empresa" },
+        { "titulo": "Meio & Mensagem: Disney, a importância do Brasil e as estratégias", "url": "https://www.meioemensagem.com.br/home/midia/2020/11/17/disney-importancia-do-brasil-e-estrategias.html", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "sony", "empresa": "Sony", "setor": "industria", "data": "2020-09", "tipo": "saida",
+      "rotulo": "Fim da fabricação em Manaus",
+      "resumo": "Em setembro de 2020, a Sony anunciou o fim da fabricação no Brasil, depois de 48 anos, com fechamento da fábrica da Zona Franca de Manaus previsto para março de 2021 e demissão dos cerca de 220 funcionários. A fábrica foi vendida à Mondial em dezembro de 2020 (sem a marca Sony). A Sony manteve a venda de videogames. Em agosto de 2021, a Panasonic também anunciou o fim da produção de TVs e áudio na Zona Franca.",
+      "motivo": "Especialistas citados na imprensa apontam que a pandemia, que suspendeu eventos esportivos e reduziu a demanda por TVs, acelerou a decisão. Não localizei o texto do comunicado da Sony.",
+      "motivoTipo": "interpretacao",
+      "internacional": null,
+      "acoes": "Matriz listada em Tóquio e Nova York (SONY).",
+      "fontes": [
+        { "titulo": "Meio & Mensagem: após 48 anos, Sony encerra fabricação no Brasil", "url": "https://www.meioemensagem.com.br/home/marketing/2020/09/15/apos-48-anos-sony-encerra-fabricacao-no-brasil.html", "tipo": "imprensa" },
+        { "titulo": "TecMundo: Sony vende fábrica de Manaus para a Mondial", "url": "https://www.tecmundo.com.br/mercado/207863-sony-vende-fabrica-manaus-mondial.htm", "tipo": "imprensa" },
+        { "titulo": "Band: Sony vende fábrica de Manaus para a Mondial e deixará o Brasil em 2021", "url": "https://www.bandab.com.br/nacional/sony-vende-fabrica-de-manaus-para-mondial-e-deixara-brasil-em-2021/amp/", "tipo": "imprensa" },
+        { "titulo": "Band: Panasonic deixa de produzir televisores na Zona Franca", "url": "https://www.bandab.com.br/economia/panasonic-deixa-de-produzir-televisores-na-zona-franca-de-manaus-em-dezembro/amp/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "laureate", "empresa": "Laureate", "setor": "educacao", "data": "2020-11", "tipo": "saida",
+      "rotulo": "Venda das universidades no Brasil à Ânima",
+      "resumo": "A Laureate assinou em novembro de 2020 a venda de seus ativos no Brasil à Ânima Educação por cerca de R$ 4,4 bilhões, superando a oferta de R$ 4 bilhões da Ser Educacional, que foi à Justiça. O Cade aprovou sem restrições, e o negócio foi concluído em 28/05/2021, com cerca de US$ 625,5 milhões de recursos líquidos para a Laureate. Os ativos incluem a Anhembi Morumbi e o IBMR; a FMU foi repassada ao fundo Farallon.",
+      "motivo": "Nos relatórios à SEC, a Laureate informa que decidiu manter as operações do México e do Peru e vender as demais; em 2022, disse que todos os desinvestimentos planejados estavam concluídos.",
+      "motivoTipo": "declarado",
+      "internacional": {
+        "texto": "A Laureate vendeu também a operação do Chile (concluída em setembro de 2020), a Universidad Europea de Madrid e as universidades de Portugal (2018). Em 2022, as operações continuadas eram México e Peru.",
+        "fontes": [
+          { "titulo": "Laureate na SEC: formulário 10-Q de jun/2021", "url": "https://www.sec.gov/Archives/edgar/data/912766/000162828021015673/laur-20210630.htm", "tipo": "oficial" },
+          { "titulo": "Laureate na SEC: formulário 10-K do ano fiscal 2022", "url": "https://www.sec.gov/Archives/edgar/data/912766/000162828023004686/laur-20221231.htm", "tipo": "oficial" }
+        ]
+      },
+      "acoes": "Matriz listada na Nasdaq (LAUR).",
+      "fontes": [
+        { "titulo": "Forbes Brasil: Ânima assina contrato para comprar ativos da Laureate no Brasil", "url": "https://forbes.com.br/negocios/2020/11/anima-educacao-assina-contrato-para-comprar-ativos-da-laureate-no-brasil/", "tipo": "imprensa" },
+        { "titulo": "Suno: Cade aprova aquisição do Grupo Laureate pela Ânima", "url": "https://www.suno.com.br/noticias/?p=148012", "tipo": "imprensa" },
+        { "titulo": "Brazil Journal: Ser aceita pagar R$ 4 bi pela Laureate no Brasil", "url": "https://braziljournal.com/breaking-ser-aceita-pagar-r-4-bi-pela-laureate-no-brasil", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "mercedes", "empresa": "Mercedes-Benz (automóveis)", "setor": "automotivo", "data": "2020-12", "tipo": "saida",
+      "rotulo": "Fim da produção de carros de passeio no Brasil",
+      "resumo": "Em 17/12/2020 a Mercedes-Benz anunciou o fim da produção de automóveis na fábrica de Iracemápolis (SP), que fazia o Classe C e o GLA e tinha 370 funcionários. Entre janeiro e novembro de 2020 foram emplacados só 1.206 GLA e 1.785 Classe C. A empresa manteve caminhões e ônibus em São Bernardo do Campo e Juiz de Fora e passou a importar os carros. O Poder360 chegou a noticiar que a empresa deixaria o Brasil, mas corrigiu a informação em janeiro de 2021.",
+      "motivo": "A empresa citou a situação econômica do país, que reduziu as vendas de carros. A imprensa também ligou a decisão ao dólar alto e a créditos tributários retidos do Inovar-Auto, segundo a própria empresa.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Matriz listada na Alemanha (MBG).",
+      "fontes": [
+        { "titulo": "Diário do Transporte: Mercedes-Benz encerra produção de carros no Brasil, mas segue com ônibus e caminhões", "url": "https://diariodotransporte.com.br/2020/12/17/mercedes-benz-encerra-producao-de-carros-no-brasil-mas-segue-fabricando-onibus-e-caminhoes/", "tipo": "imprensa" },
+        { "titulo": "Exame: Mercedes-Benz encerra produção de carros no interior de SP", "url": "https://exame.com/negocios/mercedes-benz-encerra-producao-de-carros-no-interior-de-sp/", "tipo": "imprensa" },
+        { "titulo": "Poder360: pandemia faz Mercedes-Benz encerrar produção de automóveis no Brasil", "url": "https://www.poder360.com.br/economia/pandemia-faz-mercedes-benz-encerrar-producao-no-brasil/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "ford", "empresa": "Ford", "setor": "automotivo", "data": "2021-01", "tipo": "saida",
+      "rotulo": "Fim da produção no Brasil",
+      "resumo": "Em 11/01/2021 a Ford anunciou o fim da produção no Brasil. As fábricas de Camaçari (BA) e Taubaté (SP) pararam de imediato, e a Troller, em Horizonte (CE), fecharia no último trimestre de 2021. A empresa manteve a sede administrativa da América do Sul em São Paulo, um centro de desenvolvimento na Bahia e o campo de provas de Tatuí, e passou a importar veículos como a Ranger. Estimou cerca de US$ 4,1 bilhões em encargos não recorrentes. Sindicatos estimaram cerca de 5 mil empregos em risco; críticos lembraram que a empresa recebeu cerca de R$ 20 bilhões em incentivos fiscais em duas décadas.",
+      "motivo": "A Ford disse ter decidido após anos de perdas significativas no Brasil, com a pandemia agravando a capacidade ociosa e a queda de vendas do setor.",
+      "motivoTipo": "declarado",
+      "internacional": {
+        "texto": "A Ford anunciou em maio de 2015 que deixaria de fabricar veículos na Austrália em outubro de 2016, citando custos de fabricação elevados e a fragmentação do mercado. Em setembro de 2021, anunciou o fim da produção na Índia, depois de perdas operacionais acima de US$ 2 bilhões em dez anos.",
+        "fontes": [
+          { "titulo": "Autocar: Ford vai encerrar toda a produção na Austrália", "url": "https://zephr.autocar.co.uk/car-news/industry/ford-end-all-production-australia", "tipo": "imprensa" },
+          { "titulo": "Business Today: Ford vai parar de fabricar carros na Índia e fechar as duas fábricas", "url": "https://www.businesstoday.in/auto/story/ford-motor-to-stop-making-cars-in-india-shut-down-both-plants-report-306305-2021-09-09", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Matriz listada na NYSE (F).",
+      "fontes": [
+        { "titulo": "O Povo: Ford anuncia fim da produção no Brasil, com fechamento de três fábricas", "url": "https://www.opovo.com.br/noticias/economia/2021/01/11/ford-anuncia-fim-da-producao-no-brasil--com-fechamento-de-tres-fabricas.html", "tipo": "imprensa" },
+        { "titulo": "Poder360: Ford anuncia fim de produção no Brasil depois de perdas significativas", "url": "https://www.poder360.com.br/economia/ford-anuncia-fim-de-producao-no-brasil-depois-de-perdas-significativas/", "tipo": "imprensa" },
+        { "titulo": "CUT: Ford anuncia fim da produção e fechará três fábricas (leitura sindical)", "url": "https://www.cut.org.br/noticias/ford-anuncia-fim-da-producao-de-veiculos-no-brasil-e-fechara-tres-fabricas-em-20-e7c4/", "tipo": "parte" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "gwm", "empresa": "GWM (Great Wall Motors)", "setor": "automotivo", "data": "2021-07", "tipo": "entrada",
+      "rotulo": "Chinesa compra a fábrica da Mercedes-Benz",
+      "resumo": "A Great Wall Motors comprou a fábrica de Iracemápolis (SP), de 1,2 milhão de m², com prédios e equipamentos, em negócio reportado desde julho de 2021 e confirmado pela Mercedes-Benz em agosto de 2021. O preço não foi divulgado. A GWM prometeu capacidade de 100 mil veículos por ano e 2 mil empregos, com o Brasil como base de exportação. Incentivos locais citados incluem isenção de IPTU por 20 anos.",
+      "motivo": "A empresa citou o plano de expansão e a produção local de picapes e SUVs, com o Brasil como base de exportação para os países vizinhos.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Matriz listada em Hong Kong (2333).",
+      "fontes": [
+        { "titulo": "iCarros: Great Wall entra no Brasil e compra fábrica da Mercedes", "url": "https://www.icarros.com.br/noticias/geral/great-wall-entra-no-brasil-e-compra-fabrica-da-mercedes/29445.html", "tipo": "imprensa" },
+        { "titulo": "Diário do Transporte: Mercedes-Benz confirma a venda da planta de Iracemápolis à Great Wall (18/08/2021)", "url": "https://diariodotransporte.com.br/2021/08/18/mercedes-benz-confirma-a-venda-da-planta-de-carros-em-iracemapolis-sp-para-a-chinesa-great-wall-motors/amp/", "tipo": "imprensa" },
+        { "titulo": "MercoPress: China entra na indústria automotiva no Brasil comprando fábrica da Mercedes-Benz", "url": "https://en.mercopress.com/2021/07/07/china-enters-auto-manufacturing-industry-in-brazil-acquiring-mercedes-benz-plant", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "mataripe", "empresa": "Refinaria de Mataripe", "setor": "energia", "data": "2021-12", "tipo": "mudanca",
+      "rotulo": "Petrobras vende refinaria ao Mubadala",
+      "resumo": "A Petrobras concluiu em 30/11/2021 a venda da refinaria Landulpho Alves (RLAM), na Bahia, ao fundo Mubadala Capital, por cerca de US$ 1,8 bilhão (preço de US$ 1,65 bilhão, ajustado). A Acelen assumiu em 1º/12/2021 e rebatizou a unidade como Refinaria de Mataripe. Foi a primeira das oito refinarias que a Petrobras vendeu. A unidade representa cerca de 14% da capacidade de refino do país.",
+      "motivo": "Não localizei, nas fontes consultadas, a justificativa da Petrobras. A empresa informou que nenhum empregado seria demitido por causa da transferência de controle.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Petrobras com ações em bolsa (PETR4).",
+      "fontes": [
+        { "titulo": "Forbes Brasil: Petrobras conclui venda da refinaria RLAM ao grupo Mubadala Capital", "url": "https://forbes.com.br/forbes-money/2021/11/petrobras-conclui-venda-da-refinaria-rlam-ao-grupo-mubadala-capital/", "tipo": "imprensa" },
+        { "titulo": "Bloomberg Línea: Mubadala Capital assume refinaria da Petrobras na Bahia", "url": "https://www.bloomberglinea.com.br/2021/12/01/mubadala-capital-assume-refinaria-da-petrobras-na-bahia-a-partir-de-hoje/", "tipo": "imprensa" },
+        { "titulo": "InfoMoney: Petrobras conclui venda da Refinaria Landulpho Alves", "url": "https://www.infomoney.com.br/?p=1742047", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "starlink", "empresa": "Starlink", "setor": "telecom", "data": "2022-01", "tipo": "entrada",
+      "rotulo": "Internet por satélite autorizada pela Anatel",
+      "resumo": "A diretoria da Anatel aprovou por unanimidade, em 28/01/2022, a operação do sistema de satélites de órbita baixa da Starlink (SpaceX) no Brasil, com até 4.408 satélites; o ato formal é de 8/02/2022 e a autorização vai até 2027. Foi a primeira autorização desse tipo no país, junto com a da Swarm. Em abril de 2025, a Anatel aprovou mais 7.500 satélites.",
+      "motivo": "Não localizei declaração específica da empresa sobre o motivo nas fontes consultadas.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "A SpaceX não tem ações em bolsa.",
+      "fontes": [
+        { "titulo": "Tecnoblog: Starlink recebe aval da Anatel para vender internet via satélite no Brasil", "url": "https://tecnoblog.net/noticias/starlink-recebe-aval-da-anatel-para-vender-internet-via-satelite-no-brasil/", "tipo": "imprensa" },
+        { "titulo": "Gazeta do Povo: Anatel autoriza exploração de satélites pela SpaceX", "url": "https://www.gazetadopovo.com.br/economia/breves/anatel-autoriza-exploracao-de-satelites-pela-spacex-de-elon-musk-no-pais/", "tipo": "imprensa" },
+        { "titulo": "Folha de Pernambuco: Anatel autoriza satélites de Elon Musk no Brasil", "url": "https://www.folhape.com.br/economia/anatel-autoriza-satelites-de-elon-musk-no-brasil-entenda-como/213839/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "hapvida", "empresa": "Hapvida + NotreDame Intermédica", "setor": "saude", "data": "2021-02", "tipo": "mudanca",
+      "rotulo": "Fusão de duas grandes operadoras de saúde",
+      "resumo": "O acordo de fusão foi assinado no fim de fevereiro de 2021, com a Hapvida incorporando a NotreDame Intermédica. A ANS autorizou em junho de 2021, com condições para reduzir a concentração de mercado. O Cade recomendou aprovação sem restrições em dezembro de 2021, e a operação foi concluída no início de 2022.",
+      "motivo": "As empresas apresentaram a fusão como forma de criar o maior conglomerado de saúde do país, com ganhos de escala.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (HAPV3).",
+      "fontes": [
+        { "titulo": "Diário do Nordeste: com acordo, fusão entre Hapvida e Notre Dame criará maior conglomerado de saúde do país", "url": "https://diariodonordeste.verdesmares.com.br/negocios/com-acordo-fusao-entre-hapvida-e-notre-dame-criara-maior-conglomerado-de-saude-do-pais-1.3053412", "tipo": "imprensa" },
+        { "titulo": "Suno: Cade aprova fusão entre Hapvida e NotreDame sem restrições", "url": "https://www.suno.com.br/noticias/cade-aprova-hapvida-hapv3-notredame-gndi3-fusao", "tipo": "imprensa" },
+        { "titulo": "Bloomberg Línea: com parecer do Cade, fusão entre Hapvida e Notre Dame já está valendo?", "url": "https://www.bloomberglinea.com.br/2021/12/16/com-parecer-do-cade-fusao-entre-hapvida-e-notre-dame-ja-esta-valendo/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "eletrobras", "empresa": "Eletrobras", "setor": "energia", "data": "2022-06", "tipo": "mudanca",
+      "rotulo": "Privatização por capitalização",
+      "resumo": "A Lei 14.182, de 12/07/2021, autorizou a capitalização da Eletrobras, com aumento de capital por subscrição de novas ações ordinárias, sem que a União exercesse seus direitos. A oferta foi concluída em junho de 2022 (cerimônia na B3 em 14/06/2022), captando R$ 29,29 bilhões, e a participação da União caiu de cerca de 51% para cerca de 45%, segundo o relatório da Chesf. O poder de voto de qualquer acionista foi limitado a 10%. A União depois contestou partes da lei no STF.",
+      "motivo": "Os argumentos do governo e dos críticos estão nas fontes abaixo; não os resumi aqui.",
+      "motivoTipo": "indisponivel",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (ELET3).",
+      "fontes": [
+        { "titulo": "Planalto: Lei 14.182, de 12 de julho de 2021", "url": "https://planalto.gov.br/ccivil_03/_Ato2019-2022/2021/Lei/L14182.htm", "tipo": "oficial" },
+        { "titulo": "Mattos Filho: sancionada a lei que autoriza a capitalização da Eletrobras", "url": "https://www.mattosfilho.com.br/unico/lei-captalizacao-eletrobras/", "tipo": "parte" },
+        { "titulo": "AGU: nota sobre a capitalização da Eletrobras (2023)", "url": "https://static.poder360.com.br/2023/05/Eletrobras-AGU-nota.pdf", "tipo": "oficial" },
+        { "titulo": "Chesf: demonstrações financeiras de 2022", "url": "https://www.gov.br/mme/pt-br/acesso-a-informacao/entidades/chesf/receitas-e-despesas/DFDEZ2022CHESF_PORTALfinal.pdf", "tipo": "oficial" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "americanas", "empresa": "Americanas", "setor": "varejo", "data": "2023-01", "tipo": "saida",
+      "rotulo": "Inconsistências contábeis e recuperação judicial",
+      "resumo": "Em 11/01/2023, a Americanas informou à CVM inconsistências contábeis de cerca de R$ 20 bilhões e o CEO Sergio Rial deixou o cargo. Em 19/01/2023, pediu recuperação judicial na 4ª Vara Empresarial do Rio, com dívida de cerca de R$ 43 bilhões e 16,3 mil credores (a lista de credores reconhecidos ficou em cerca de R$ 41 bilhões). O caixa era de R$ 800 milhões, contra R$ 8,6 bilhões registrados no 3º trimestre de 2022.",
+      "motivo": "O fato relevante atribuiu o problema a operações de financiamento de compras em que a companhia era devedora de instituições financeiras, mas que não estavam refletidas adequadamente nas demonstrações. Um comitê independente foi criado para apurar o caso, e as responsabilidades dependem dos processos.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Ações negociadas em bolsa (AMER3, antes LAME4).",
+      "fontes": [
+        { "titulo": "Fato relevante da Americanas, 11/01/2023 (PDF publicado pelo Poder360)", "url": "https://static.poder360.com.br/2023/01/fato-relevante-americanas-11-jan-2023.pdf", "tipo": "empresa" },
+        { "titulo": "CNN Brasil: Americanas acha rombo de R$ 20 bilhões e presidente renuncia", "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/fato-relevante-americanas-11-jan-23/", "tipo": "imprensa" },
+        { "titulo": "Poder360: Americanas entra com pedido de recuperação judicial", "url": "https://www.poder360.com.br/economia/americanas-entra-com-pedido-de-recuperacao-judicial/", "tipo": "imprensa" },
+        { "titulo": "Mais Retorno: com dívida de R$ 43 bilhões, Americanas entra com pedido de RJ", "url": "https://maisretorno.com/portal/com-divida-de-r-43-bilhoes-americanas-entra-com-pedido-de-recuperacao-judicial", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "byd", "empresa": "BYD", "setor": "automotivo", "data": "2023-07", "tipo": "entrada",
+      "rotulo": "Fábrica de carros elétricos em Camaçari (BA)",
+      "resumo": "Em julho de 2023, a BYD confirmou uma fábrica em Camaçari, com investimento inicial de R$ 3 bilhões. Em agosto de 2023 ficou claro que ela ficaria nas instalações da antiga fábrica da Ford, que a Ford devolveu ao governo da Bahia. O projeto previa três unidades (carros, chassis de ônibus e caminhões, e processamento de lítio e ferro fosfato). A Bahia ofereceu redução de até 95% do ICMS até 2032. Uma fonte informa que a primeira fase foi inaugurada com investimento total de R$ 5,5 bilhões, mas sem data exata.",
+      "motivo": "Os documentos de imprensa citam os incentivos estaduais e a localização da antiga fábrica da Ford. Não localizei declaração da BYD sobre o motivo da escolha do Brasil.",
+      "motivoTipo": "interpretacao",
+      "internacional": {
+        "texto": "A BYD anunciou em dezembro de 2023 a primeira fábrica de carros da empresa na Europa, perto de Szeged, na Hungria.",
+        "fontes": [
+          { "titulo": "Paul Tan: BYD vai construir sua primeira fábrica de carros elétricos na Europa, na Hungria", "url": "https://paultan.org/2023/12/29/byd-to-build-its-first-european-ev-factory-in-hungary/", "tipo": "imprensa" }
+        ]
+      },
+      "acoes": "Listada em Hong Kong e Shenzhen (1211).",
+      "fontes": [
+        { "titulo": "AutoIndústria: BYD vai investir R$ 3 bilhões para produzir veículos na Bahia", "url": "https://autoindustria.com.br/2023/07/04/byd-to-invest-r-3-billion-to-produce-vehicles-in-bahia/amp", "tipo": "imprensa" },
+        { "titulo": "Autodata: Ford vende a fábrica de Camaçari para o governo baiano", "url": "https://www.autodata.com.br/noticias/2023/08/11/ford-vende-a-fabrica-de-cacamari-para-o-governo-baiano/60243/", "tipo": "imprensa" },
+        { "titulo": "O Mecânico: BYD inaugura fábrica em Camaçari no antigo complexo da Ford", "url": "https://omecanico.com.br/byd-inaugura-fabrica-em-camacari-ba-no-antigo-complexo-da-ford/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    },
+    {
+      "id": "x", "empresa": "X (antigo Twitter)", "setor": "tecnologia", "data": "2024-08", "tipo": "saida",
+      "rotulo": "Fechamento do escritório e suspensão da plataforma",
+      "resumo": "Em 17/08/2024 a X anunciou o fim das operações no Brasil, onde tinha escritório desde 2012 e cerca de 40 funcionários. Em 30/08, o ministro Alexandre de Moraes, do STF, determinou a suspensão nacional da plataforma. Em 27/09 a X bloqueou perfis e nomeou representante legal, em 7/10 comprovou o pagamento de cerca de R$ 28,6 milhões em multas, e em 8/10 a plataforma foi liberada. Houve divergência sobre a conta em que a multa foi paga. Depois, Moraes fixou multa diária de R$ 5 milhões.",
+      "motivo": "A empresa afirmou que fechava o escritório por ameaças de Moraes à equipe local. O STF motivou a suspensão pela falta de representante legal no país e pelo não pagamento de multas.",
+      "motivoTipo": "declarado",
+      "internacional": null,
+      "acoes": "Sem ações negociadas em bolsa desde a compra por Elon Musk em 2022.",
+      "fontes": [
+        { "titulo": "Meio & Mensagem: antigo Twitter, X deixará de ter escritório no Brasil", "url": "https://www.meioemensagem.com.br/midia/x-operacoes-brasil", "tipo": "imprensa" },
+        { "titulo": "Olhar Digital: X/Twitter encerra atividades no Brasil e culpa Alexandre de Moraes", "url": "https://olhardigital.com.br/2024/08/17/pro/x-twitter-encerra-atividades-no-brasil-e-culpa-alexandre-de-moraes/", "tipo": "imprensa" },
+        { "titulo": "Correio Braziliense: a cronologia da suspensão até a liberação do X no Brasil", "url": "https://www.correiobraziliense.com.br/politica/2024/10/6960417-a-cronologia-da-suspensao-ate-a-liberacao-do-x-no-brasil.html", "tipo": "imprensa" },
+        { "titulo": "Forbes Brasil: Moraes autoriza desbloqueio do X no Brasil", "url": "https://forbes.com.br/last/2024/10/alexandre-de-moraes-autoriza-desbloqueio-do-x-no-brasil/", "tipo": "imprensa" }
+      ],
+      "fato": "confirmado"
+    }
+  ]
+}
