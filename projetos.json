@@ -20,6 +20,26 @@
     "url": "gasolina-vs-salario-minimo/"
   },
   {
+    "id": "guia-politico-explicado",
+    "titulo": "Guia político explicado",
+    "descricao": "Enciclopédia da política brasileira: impeachment, PEC, inelegibilidade, quociente eleitoral, quóruns e o que faz cada cargo, do vereador ao presidente. Passo a passo, com exemplos reais, fonte de cada regra e comparação entre federal, estadual, DF e municipal.",
+    "tags": ["Enciclopédia", "Cargos", "Processos", "Sistema eleitoral"],
+    "status": "em-andamento",
+    "statusTexto": "Em andamento",
+    "atualizado": "2026-11-06",
+    "url": "guia-politico-explicado/"
+  },
+  {
+    "id": "linha-do-tempo-nova-republica",
+    "titulo": "Empresas na Nova República, setor por setor",
+    "descricao": "Linha do tempo de 1985 até hoje com entradas, saídas e mudanças de empresas em 14 setores, faixas por presidente, marcos nacionais, justificativa de cada caso e comparação com outros países. Filtro por setor com botões de ícone.",
+    "tags": ["Nova República", "Empresas", "Setores", "Presidentes"],
+    "status": "em-andamento",
+    "statusTexto": "Em andamento",
+    "atualizado": "2026-11-06",
+    "url": "linha-do-tempo-nova-republica/"
+  },
+  {
     "id": "fundo-partidario-campanhas",
     "titulo": "Fundos de campanha: partidos e candidatos",
     "descricao": "Quanto do Fundo Eleitoral (FEFC) e do Fundo Partidário foi pago por partidos e candidaturas nas eleições gerais de 2018 e 2022, no 1º e no 2º turno, separando gasto próprio de repasses. Detalhe por cargo e por candidatura, com link para a fonte oficial e limites declarados.",

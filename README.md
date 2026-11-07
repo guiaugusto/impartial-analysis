@@ -1,3 +1,4 @@
+| Guia político explicado (enciclopédia de processos, cargos, instituições e conceitos da política brasileira, com exemplos e fontes; federal, estadual, DF e municipal) | [`guia-politico-explicado/`](guia-politico-explicado/) |
 # impartial-analysis
 
 Espaço de estudo sobre política e economia, para formar pensamento crítico a partir de dados públicos. Cada microprojeto cita as fontes, marca o que não é confirmado e declara o que os dados não permitem concluir. A página inicial, publicada no GitHub Pages, indexa todos os projetos.
@@ -8,7 +9,12 @@ Espaço de estudo sobre política e economia, para formar pensamento crítico a 
 |---|---|
 | Resumo imparcial do 2º turno de 2026 (mapa, horário de votação, ocorrências, análise) | [`resumo-imparcial-eleicoes-2026/`](resumo-imparcial-eleicoes-2026/) |
 | Gasolina e salário mínimo, mês a mês (preço da gasolina por mês e por município, litros por salário, contexto de cada variação) | [`gasolina-vs-salario-minimo/`](gasolina-vs-salario-minimo/) |
+| Empresas na Nova República, setor por setor (linha do tempo de 1985 até hoje com entradas, saídas e mudanças, faixas por governo, filtro por setor) | [`linha-do-tempo-nova-republica/`](linha-do-tempo-nova-republica/) |
 | Fundos de campanha: partidos e candidatos (Fundo Eleitoral e Fundo Partidário pagos em 2018 e 2022, por partido, cargo, candidatura e turno, com fonte do TSE) | [`fundo-partidario-campanhas/`](fundo-partidario-campanhas/) |
+
+## Padrão obrigatório
+
+Todo projeto segue a skill [`analise-imparcial`](.claude/skills/analise-imparcial/SKILL.md): **link de fonte em cada fato**, imparcialidade (sem veredito, divergências à mostra, justificativa separada de interpretação), limites declarados e páginas que funcionam bem na web e no celular. O Claude Code do projeto carrega essa skill sozinho ao criar ou alterar projetos.
 
 ## Como adicionar um projeto
 
