@@ -18,5 +18,15 @@
     "statusTexto": "Em andamento",
     "atualizado": "2026-10-26",
     "url": "gasolina-vs-salario-minimo/"
+  },
+  {
+    "id": "fundo-partidario-campanhas",
+    "titulo": "Fundos de campanha: partidos e candidatos",
+    "descricao": "Quanto do Fundo Eleitoral (FEFC) e do Fundo Partidário foi pago por partidos e candidaturas nas eleições gerais de 2018 e 2022, no 1º e no 2º turno, separando gasto próprio de repasses. Detalhe por cargo e por candidatura, com link para a fonte oficial e limites declarados.",
+    "tags": ["Fundo eleitoral", "Fundo partidário", "Dados do TSE", "Partidos"],
+    "status": "em-andamento",
+    "statusTexto": "Piloto",
+    "atualizado": "2026-11-06",
+    "url": "fundo-partidario-campanhas/"
   }
 ]
