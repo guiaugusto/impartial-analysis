@@ -10,6 +10,7 @@ Espaço de estudo sobre política e economia, para formar pensamento crítico a 
 | Resumo imparcial do 2º turno de 2026 (mapa, horário de votação, ocorrências, análise) | [`resumo-imparcial-eleicoes-2026/`](resumo-imparcial-eleicoes-2026/) |
 | Gasolina e salário mínimo, mês a mês (preço da gasolina por mês e por município, litros por salário, contexto de cada variação) | [`gasolina-vs-salario-minimo/`](gasolina-vs-salario-minimo/) |
 | Empresas na Nova República, setor por setor (linha do tempo de 1985 até hoje com entradas, saídas e mudanças, faixas por governo, filtro por setor) | [`linha-do-tempo-nova-republica/`](linha-do-tempo-nova-republica/) |
+| Fundos de campanha: partidos e candidatos (Fundo Eleitoral e Fundo Partidário pagos em 2018 e 2022, por partido, cargo, candidatura e turno, com fonte do TSE) | [`fundo-partidario-campanhas/`](fundo-partidario-campanhas/) |
 
 ## Padrão obrigatório
 
