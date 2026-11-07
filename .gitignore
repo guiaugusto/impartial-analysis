@@ -1,0 +1,21 @@
+# Dados brutos baixados de fontes externas: nunca versionar.
+# Só entram no Git os agregados gerados por script (ver .claude/skills/dados-sensiveis).
+dados-brutos/
+**/dados-brutos/
+
+# Formatos típicos de dado bruto
+*.zip
+*.parquet
+*.sqlite
+*.db
+
+# Segredos e configuração local
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/

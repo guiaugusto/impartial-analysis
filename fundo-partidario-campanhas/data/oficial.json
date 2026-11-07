@@ -1,0 +1,20 @@
+{
+  "2018": {
+    "fefc_total": 1716209431,
+    "fato": "a-conferir",
+    "nota": "Valor lido no resumo de uma busca na web que cita o TSE. As páginas do TSE responderam 403 (bloqueio de leitura automática), então o valor não foi conferido na própria página. Confira nos links.",
+    "fontes": [
+      { "titulo": "TSE: Partidos políticos receberam R$ 1,7 bilhão do Fundo Eleitoral em 2018", "url": "https://www.tse.jus.br/comunicacao/noticias/2019/Janeiro/partidos-politicos-receberam-r-1-7-bilhao-do-fundo-eleitoral-em-2018", "tipo": "oficial" },
+      { "titulo": "TSE: Fundo Especial de Financiamento de Campanha (FEFC), Eleições 2018", "url": "https://www.tse.jus.br/eleicoes/eleicoes-2018/prestacao-de-contas-1/fundo-especial-de-financiamento-de-campanha-fefc", "tipo": "oficial" }
+    ]
+  },
+  "2022": {
+    "fefc_total": 4961519777,
+    "fato": "a-conferir",
+    "nota": "Valor lido no resumo de uma busca na web que cita o TSE. As páginas do TSE responderam 403 (bloqueio de leitura automática), então o valor não foi conferido na própria página. Confira nos links.",
+    "fontes": [
+      { "titulo": "TSE: TSE divulga montante do Fundo Eleitoral destinado aos partidos para as Eleições 2022", "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Junho/tse-divulga-montante-do-fundo-eleitoral-destinado-aos-partidos-para-as-eleicoes-2022", "tipo": "oficial" },
+      { "titulo": "TSE: Fundo Especial de Financiamento de Campanha (FEFC), Eleições 2022", "url": "https://www.tse.jus.br/eleicoes/eleicoes-2022/prestacao-de-contas/fundo-especial-de-financiamento-de-campanha-fefc", "tipo": "oficial" }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fundos de campanha: partidos e candidatos</title>
+<meta name="description" content="Quanto do Fundo Eleitoral (FEFC) e do Fundo Partidário foi pago por partidos e candidaturas nas eleições gerais de 2018 e 2022, no 1º e no 2º turno, com link para a fonte oficial de cada dado.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<main class="wrap">
+
+<header class="intro">
+  <p class="crumb"><a href="../">← Todos os projetos</a></p>
+  <p class="kicker">Eleições gerais 2018 e 2022 · prestação de contas ao TSE</p>
+  <h1>Fundos de campanha: partidos e candidatos</h1>
+  <p class="lead">Mostra quanto do <strong>Fundo Eleitoral (FEFC)</strong> e do <strong>Fundo Partidário</strong> foi pago, segundo as contas entregues ao TSE, por partido e por candidatura, no 1º e no 2º turno. A página resume os dados; para ver tudo, use os links da seção <a href="#fontes">Fontes</a>.</p>
+</header>
+
+<noscript><p class="aviso">Esta página precisa de JavaScript para mostrar as tabelas.</p></noscript>
+<p id="erro" class="aviso" role="alert" hidden></p>
+<p class="aviso">São valores <strong>declarados</strong> por partidos e candidaturas à Justiça Eleitoral. Não foram auditados aqui, e a página não julga se os gastos foram adequados. Leia “O que os dados não permitem concluir” antes de comparar partidos.</p>
+
+<section class="card" aria-labelledby="t-filtros">
+  <h2 id="t-filtros">Escolha</h2>
+  <div class="grupo"><span id="l-ano">Eleição</span><div id="anos" class="chips" role="group" aria-labelledby="l-ano"></div></div>
+  <div class="grupo"><span id="l-turno">Turno (vale para candidaturas)</span><div id="turnos" class="chips" role="group" aria-labelledby="l-turno"></div></div>
+  <p class="dica">O 2º turno só existe para Presidente e Governador, por isso os valores dele são bem menores. Os dados dos partidos (órgãos partidários) não são divididos por turno.</p>
+</section>
+
+<section aria-labelledby="t-resumo">
+  <h2 id="t-resumo">Resumo da eleição</h2>
+  <div id="metricas" class="metricas"></div>
+</section>
+
+<section aria-labelledby="t-partidos">
+  <h2 id="t-partidos">Por partido</h2>
+  <p class="texto">“Candidaturas” é o que as candidaturas do partido pagaram com cada fundo. “Partido” é o que o próprio partido pagou com recursos próprios (sem contar o que repassou). “Repasses” é o que o partido enviou a candidaturas e outros partidos, que depois aparece no gasto delas.</p>
+  <label class="grupo"><span>Ordenar por</span>
+    <select id="ordem" aria-label="Ordenar a tabela por">
+      <option value="cf">Candidaturas: Fundo Eleitoral (maior primeiro)</option>
+      <option value="cp">Candidaturas: Fundo Partidário</option>
+      <option value="pf">Partido: Fundo Eleitoral</option>
+      <option value="pp">Partido: Fundo Partidário</option>
+      <option value="rep">Repasses do partido</option>
+      <option value="nome">Nome do partido (A–Z)</option>
+    </select>
+  </label>
+  <p class="dica" id="dica-rolagem">Em telas estreitas, deslize a tabela para os lados. Toque em “Detalhes” para ver por cargo e por candidatura.</p>
+  <div class="tabela-wrap" tabindex="0" role="region" aria-label="Tabela de partidos" id="tabela-wrap">
+    <table>
+      <thead><tr>
+        <th scope="col">Partido</th>
+        <th scope="col" class="num">Candidaturas: Fundo Eleitoral</th>
+        <th scope="col" class="num">Candidaturas: Fundo Partidário</th>
+        <th scope="col" class="num">Partido: Fundo Eleitoral</th>
+        <th scope="col" class="num">Partido: Fundo Partidário</th>
+        <th scope="col" class="num">Repasses (FEFC + FP)</th>
+        <th scope="col"><span class="visually">Detalhes</span></th>
+      </tr></thead>
+      <tbody id="corpo"></tbody>
+    </table>
+  </div>
+</section>
+
+<section aria-labelledby="t-limites">
+  <h2 id="t-limites">O que os dados não permitem concluir</h2>
+  <ul class="lista" id="limites"></ul>
+</section>
+
+<section aria-labelledby="t-fontes" id="fontes">
+  <h2 id="t-fontes">Fontes</h2>
+  <p class="texto">Rótulos: <span class="fonte-tipo">oficial</span> documento ou órgão público. Todos os números vêm das bases abaixo, tratadas pelos scripts da pasta <code>coleta/</code> do projeto.</p>
+  <ul class="lista" id="lista-fontes"></ul>
+</section>
+
+</main>
+
+<dialog id="dlg" aria-labelledby="dlg-titulo">
+  <div class="dlg-topo">
+    <h2 id="dlg-titulo"></h2>
+    <button type="button" class="btn" id="dlg-fechar">Fechar</button>
+  </div>
+  <div id="dlg-corpo"></div>
+</dialog>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

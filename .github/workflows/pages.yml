@@ -22,6 +22,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Verificar dados sensíveis (fundo-partidario-campanhas)
+        shell: pwsh
+        run: ./scripts/verificar-dados-sensiveis.ps1 fundo-partidario-campanhas
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
