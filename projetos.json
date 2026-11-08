@@ -48,5 +48,15 @@
     "statusTexto": "Piloto",
     "atualizado": "2026-11-06",
     "url": "fundo-partidario-campanhas/"
+  },
+  {
+    "id": "beneficios-sociais-brasil",
+    "titulo": "Benefícios sociais no Brasil",
+    "descricao": "Benefícios federais que a população pode receber, inclusive quem vem de fora: quem tem direito, por quanto tempo, quanto vale e onde pedir. Filtros por área e por estrangeiros; cada ficha traz a fonte oficial e o nível de confiança.",
+    "tags": ["Benefícios", "Assistência social", "Previdência", "Estrangeiros"],
+    "status": "em-andamento",
+    "statusTexto": "Piloto",
+    "atualizado": "2026-11-06",
+    "url": "beneficios-sociais-brasil/"
   }
 ]
